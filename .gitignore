@@ -70,3 +70,13 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Additional files to ignore
+*.dll
+*.dylib
+*.exe
+*.ilk
+*.log
+*.meta
+*.idb
+*.unitypackage

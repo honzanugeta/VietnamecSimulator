@@ -97,7 +97,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: 5bcf6f72cbfcb674188f9096e1c9f6e6, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 4e24162cd431b49329542ad64018b78a, type: 2}
 --- !u!196 &5
 NavMeshSettings:
   serializedVersion: 2
@@ -1154,7 +1154,7 @@ Light:
   m_Intensity: 0.14
   m_Range: 10
   m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
+  m_InnerSpotAngle: 21.802082
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -11696,7 +11696,7 @@ Light:
   m_Intensity: 0.36
   m_Range: 10
   m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
+  m_InnerSpotAngle: 21.802082
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -12152,7 +12152,7 @@ Light:
   m_Intensity: 0.08
   m_Range: 10
   m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
+  m_InnerSpotAngle: 21.802082
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -12334,7 +12334,7 @@ Light:
   m_Intensity: 0.36
   m_Range: 10
   m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
+  m_InnerSpotAngle: 21.802082
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -12817,7 +12817,7 @@ Light:
   m_Intensity: 0.28
   m_Range: 10
   m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
+  m_InnerSpotAngle: 21.802082
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0

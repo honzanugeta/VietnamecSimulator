@@ -5,93 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cdbdc15-ca81-46d8-8419-5b20552b70c1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VietnamecSimulator/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/Following.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/Following.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralAdvancedTechniques.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralAdvancedTechniques.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralBasic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralBasic.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralBasics2d.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralBasics2d.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralCameraShake.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralCameraShake.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralEasingTypes.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralEasingTypes.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralEvents.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralEvents.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralSequencer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralSequencer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralSimpleUi.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralSimpleUi.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralUISpaceSettings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/GeneralUISpaceSettings.lighting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/LogoCinematic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/LogoCinematic.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathBezier.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathBezier.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathBezier2d.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathBezier2d.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSpline2d.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSpline2d.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSplineEndless.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSplineEndless.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSplinePerformance.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSplinePerformance.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSplineTrack.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSplineTrack.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSplines.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/PathSplines.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/TestingUnitTests.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/TestingUnitTests.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/TestingZLegacy.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Scenes/TestingZLegacy.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Testing/FollowingTests.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Testing/FollowingTests.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Testing/PerformanceTests.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Testing/PerformanceTests.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Testing/Testing240.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Testing/Testing240.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Testing/Testing243.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Testing/Testing243.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Testing/Testing246.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Testing/Testing246.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Testing/Testing248.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Testing/Testing248.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Testing/TestingDescr.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Testing/TestingDescr.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Testing/TestingIssue.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Testing/TestingIssue.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Testing/TestingMaxTweens.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Testing/TestingMaxTweens.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Testing/TestingOptionalCancel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Testing/TestingOptionalCancel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Testing/TestingRotate.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Testing/TestingRotate.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Testing/TestingSceneSwitching.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Testing/TestingSceneSwitching.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Testing/TestingSequencer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Testing/TestingSequencer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VietnamecSimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VietnamecSimulator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Prefabs/MainCamera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Prefabs/MainCamera.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Prefabs/PlayerCapsule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Prefabs/PlayerCapsule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Scenes/Playground.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Scenes/Playground.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,26 +32,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/honzanugeta/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
-      "/Users/honzanugeta/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
-      "/Users/honzanugeta/Library/Application Support/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/honzanugeta/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/honzanugeta/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/honzanugeta/Library/Application Support/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$USER_HOME$/testhra/test.app/Contents/MacOS/VietnamecSimulator" />
@@ -194,6 +112,9 @@
       <workItem from="1732655276865" duration="18000" />
       <workItem from="1732662298434" duration="330000" />
       <workItem from="1732705963971" duration="605000" />
+      <workItem from="1732780254455" duration="1000" />
+      <workItem from="1732780264007" duration="2000" />
+      <workItem from="1732797832268" duration="3000" />
     </task>
     <servers />
   </component>

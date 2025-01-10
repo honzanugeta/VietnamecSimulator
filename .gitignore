@@ -59,6 +59,7 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
+*.unitypackage.meta
 *.app
 
 # Crashlytics generated file
@@ -77,6 +78,7 @@ crashlytics-build.properties
 *.exe
 *.ilk
 *.log
-*.meta
 *.idb
 *.unitypackage
+*.meta
+

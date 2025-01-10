@@ -8,10 +8,7 @@ public class MainMenu : MonoBehaviour
     [SerializeField]  RectTransform Logo;
     [SerializeField]  float topposy, middleposy;
     [SerializeField]  float tweenDuration;
-    public void Quit()
-    {
-        Application.Quit();
-    }
+    
 
     
     // Start is called before the first frame update
@@ -30,6 +27,9 @@ public class MainMenu : MonoBehaviour
     {
         
     }
-
+    public void QuitApp()
+    {
+        Application.Quit();
+    }
    
 }

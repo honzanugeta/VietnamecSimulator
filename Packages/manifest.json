@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.unity.ai.navigation": "1.1.5",
     "com.unity.burst": "1.8.18",
     "com.unity.cinemachine": "2.10.1",
     "com.unity.collab-proxy": "2.5.2",

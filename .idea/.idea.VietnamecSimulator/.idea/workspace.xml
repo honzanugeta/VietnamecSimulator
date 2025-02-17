@@ -6,11 +6,79 @@
   <component name="ChangeListManager">
     <list default="true" id="4cdbdc15-ca81-46d8-8419-5b20552b70c1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VietnamecSimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VietnamecSimulator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ACBox.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ACBox.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Walking.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Walking.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/EyeBack.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/EyeBack.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye_reflection.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye_reflection.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyebrows.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyebrows.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyelashes.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyelashes.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyeliner.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyeliner.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Face.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Face.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Hair_head.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Hair_head.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_EyeReflection.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_EyeReflection.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_hair.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_head.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_head.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_2_hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_2_hair.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_2_head.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_2_head.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_3_hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_3_hair.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_3_head.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_3_head.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_4_hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_4_hair.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_4_head.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_4_head.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_5_hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_5_hair.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_5_head.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_5_head.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/mouth_inside.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/mouth_inside.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/Demo files/AC.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/Demo files/AC.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/Demo files/Mat_Background.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/Demo files/Mat_Background.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/Underwear1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/Underwear1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/Casual1/Casual1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/Casual1/Casual1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/Casual1/Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/Casual1/Demo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/Casual1/SourceFiles/Material/Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimeGirls/Casual1/SourceFiles/Material/Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Bro_Tex.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Bro_Tex.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_03.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_04.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_05.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_05.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_06.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_06.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_07.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_07.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_08.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_08.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_09.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_09.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_10.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_10.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_11.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_11.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_12.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_12.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_13.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_13.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_14.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_14.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_15.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_15.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_16.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_16.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_17.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_17.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_18.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_18.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Hair.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Studio.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Studio.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Prefabs/BroModel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Prefabs/BroModel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Scenes/Bro_Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Scenes/Bro_Demo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Scenes/Bro_Demo_Profiles/Bro_PostProcess Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Bros/Scenes/Bro_Demo_Profiles/Bro_PostProcess Profile.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blender/Polevka.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Blender/Polevka.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blender/Polevka.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Blender/Polevka.blend1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImagesBlender/Skener_20250127.png" beforeDir="false" afterPath="$PROJECT_DIR$/ImagesBlender/Skener_20250127.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/High_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/High_PipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Low_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Low_PipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Medium_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Medium_PipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Ultra_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Ultra_PipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Very High_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Very High_PipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Very Low_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Very Low_PipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,26 +106,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/honzanugeta/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
-      "/Users/honzanugeta/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
-      "/Users/honzanugeta/Library/Application Support/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Honza Nugeta\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Honza Nugeta\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Honza Nugeta\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$USER_HOME$/Desktop/TestHra\VietnamecSimulator.exe" />
@@ -68,7 +136,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2022.3.50f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;C:\Users\Honza Nugeta\Documents\VietnamecSimulator\VietnamecSimulator&quot; -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Honza Nugeta\Documents\VietnamecSimulator\VietnamecSimulator" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -76,7 +144,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2022.3.50f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\Honza Nugeta\Documents\VietnamecSimulator\VietnamecSimulator&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Honza Nugeta\Documents\VietnamecSimulator\VietnamecSimulator" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -131,6 +199,8 @@
       <workItem from="1736790015420" duration="10459000" />
       <workItem from="1737061828667" duration="1546000" />
       <workItem from="1738236390418" duration="165000" />
+      <workItem from="1738793131638" duration="2107000" />
+      <workItem from="1739222517776" duration="107000" />
     </task>
     <servers />
   </component>

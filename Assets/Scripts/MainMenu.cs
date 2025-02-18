@@ -24,6 +24,7 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        resolutions = Screen.resolutions;
         LogoLoad();
         InitializeResolutions();
         InitializeQuality();
@@ -37,40 +38,19 @@ public class MainMenu : MonoBehaviour
     private void InitializeRefreshrate()
     {
         refreshrateDropdown.ClearOptions();
+        List<string> refreshRateOptions = new List<string>();
 
-        // Populate refresh rates based on the currently selected resolution
-        int resolutionIndex = resolutionDropdown.value;
-        string[] selectedResolution = resolutionDropdown.options[resolutionIndex].text.Split('x');
-        int width = int.Parse(selectedResolution[0]);
-        int height = int.Parse(selectedResolution[1]);
-
-        HashSet<int> refreshRates = new HashSet<int>();
-        foreach (var res in resolutions)
+        foreach (Resolution res in resolutions)
         {
-            if (res.width == width && res.height == height)
+            string refreshRateString = $"{res.refreshRateRatio.numerator} Hz";
+            if (!refreshRateOptions.Contains(refreshRateString))
             {
-                refreshRates.Add(res.refreshRate);
+                refreshRateOptions.Add(refreshRateString);
             }
         }
 
-        // Sort refresh rates and add to dropdown
-        List<int> sortedRefreshRates = new List<int>(refreshRates);
-        sortedRefreshRates.Sort();
-
-        List<string> options = new List<string>();
-        int currentRefreshRateIndex = 0;
-        for (int i = 0; i < sortedRefreshRates.Count; i++)
-        {
-            options.Add(sortedRefreshRates[i] + " Hz");
-            if (sortedRefreshRates[i] == Screen.currentResolution.refreshRate)
-            {
-                currentRefreshRateIndex = i;
-            }
-        }
-
-        refreshrateDropdown.AddOptions(options);
-        refreshrateDropdown.value = currentRefreshRateIndex;
-        refreshrateDropdown.RefreshShownValue();
+        refreshrateDropdown.AddOptions(refreshRateOptions);
+        refreshrateDropdown.onValueChanged.AddListener(SetResolution);
     }
 
 
@@ -83,7 +63,7 @@ public class MainMenu : MonoBehaviour
         int height = int.Parse(selectedResolution[1]);
 
         Screen.SetResolution(width, height, Screen.fullScreen, refreshRate);
-        PlayerPrefs.SetInt("RefreshRate", refreshRateIndex);
+        PlayerPrefs.SetInt("RefreshRate", refreshRate);
     }
 
 
@@ -103,45 +83,37 @@ public class MainMenu : MonoBehaviour
     }
     private void InitializeResolutions()
     {
-        resolutions = Screen.resolutions;
         resolutionDropdown.ClearOptions();
-
-        // Collect unique resolutions
-        HashSet<string> uniqueResolutions = new HashSet<string>();
         List<string> resolutionOptions = new List<string>();
-        int currentResolutionIndex = 0;
 
-        foreach (var res in resolutions)
+        for (int i = 0; i < resolutions.Length; i++)
         {
-            string resolutionString = $"{res.width}x{res.height}";
-            if (uniqueResolutions.Add(resolutionString))
-            {
-                resolutionOptions.Add(resolutionString);
-            }
-
-            if (res.width == Screen.currentResolution.width && res.height == Screen.currentResolution.height)
-            {
-                currentResolutionIndex = resolutionOptions.IndexOf(resolutionString);
-            }
+            string resolutionString = $"{resolutions[i].width}x{resolutions[i].height}";
+            resolutionOptions.Add(resolutionString);
         }
 
         resolutionDropdown.AddOptions(resolutionOptions);
-        resolutionDropdown.value = currentResolutionIndex;
-        resolutionDropdown.RefreshShownValue();
+        resolutionDropdown.onValueChanged.AddListener(SetResolution); // ✅ Now passes index
     }
 
 
     public void SetResolution(int resolutionIndex)
     {
-        string[] selectedResolution = resolutionDropdown.options[resolutionIndex].text.Split('x');
-        int width = int.Parse(selectedResolution[0]);
-        int height = int.Parse(selectedResolution[1]);
+        string[] resolutionText = resolutionDropdown.options[resolutionDropdown.value].text.Split('x');
+        if (resolutionText.Length != 2 || !int.TryParse(resolutionText[0].Trim(), out int width) || !int.TryParse(resolutionText[1].Trim(), out int height))
+        {
+            Debug.LogError("Invalid resolution format: " + resolutionDropdown.options[resolutionDropdown.value].text);
+            return;
+        }
 
-        // Get currently selected refresh rate
-        int refreshRate = int.Parse(refreshrateDropdown.options[refreshrateDropdown.value].text.Replace(" Hz", ""));
+        string refreshRateText = refreshrateDropdown.options[refreshrateDropdown.value].text.Replace(" Hz", "").Trim();
+        if (!int.TryParse(refreshRateText, out int refreshRate))
+        {
+            Debug.LogError("Invalid refresh rate format: " + refreshRateText);
+            return;
+        }
 
-        Screen.SetResolution(width, height, Screen.fullScreen, refreshRate);
-        PlayerPrefs.SetInt("ResolutionIndex", resolutionIndex);
+        Screen.SetResolution(width, height, fullscreenToggle.isOn ? FullScreenMode.FullScreenWindow : FullScreenMode.Windowed, new RefreshRate { numerator = (uint)refreshRate, denominator = 1 });
     }
 
 
@@ -177,7 +149,8 @@ public class MainMenu : MonoBehaviour
 
     public void SetAntiAliasing(int value)
     {
-        QualitySettings.antiAliasing = (int)Mathf.Pow(2, value); // 0 -> Off, 1 -> 2x, 2 -> 4x, 3 -> 8x
+        int[] aaLevels = { 0, 2, 4, 8 };
+        QualitySettings.antiAliasing = aaLevels[value];
         PlayerPrefs.SetInt("AntiAliasing", value);
     }
 
@@ -209,7 +182,7 @@ public class MainMenu : MonoBehaviour
 
     public void SetVolume(float volume)
     {
-        audioMixer.SetFloat("Volume", Mathf.Log10(volume) * 20);
+        audioMixer.SetFloat("Volume", Mathf.Log10(Mathf.Max(volume, 0.0001f)) * 20);
         PlayerPrefs.SetFloat("Volume", volume);
     }
 
@@ -218,7 +191,7 @@ public class MainMenu : MonoBehaviour
     {
         bool isFullScreen = PlayerPrefs.GetInt("FullScreen", 1) == 1; // Default to fullscreen
         fullscreenToggle.isOn = isFullScreen;
-        Screen.fullScreen = isFullScreen;
+        Screen.fullScreenMode = isFullScreen ? FullScreenMode.FullScreenWindow : FullScreenMode.Windowed;
     }
 
     public void SetFullScreen(bool isFullScreen)
@@ -240,7 +213,7 @@ public class MainMenu : MonoBehaviour
         PlayerPrefs.SetInt("QualityIndex", qualityDropdown.value);
         PlayerPrefs.SetInt("AntiAliasing", antiAliasingDropdown.value);
         PlayerPrefs.SetInt("TextureQuality", textureQualityDropdown.value);
-        PlayerPrefs.SetString("RefreshRate", refreshrateDropdown.options[refreshrateDropdown.value].text);
+        PlayerPrefs.SetInt("RefreshRate", int.Parse(refreshrateDropdown.options[refreshrateDropdown.value].text.Replace(" Hz", "")));
         PlayerPrefs.SetInt("FullScreen", fullscreenToggle.isOn ? 1 : 0);
         PlayerPrefs.SetFloat("Volume", volumeSlider.value);
         PlayerPrefs.Save();

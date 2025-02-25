@@ -7,221 +7,423 @@ using TMPro;
 
 public class MainMenu : MonoBehaviour
 {
-    [SerializeField] RectTransform Logo;
-    [SerializeField] float topposy, middleposy;
-    [SerializeField] float tweenDuration;
-    [SerializeField] AudioMixer audioMixer; 
-    [SerializeField] TMP_Dropdown resolutionDropdown; 
-    [SerializeField] TMP_Dropdown qualityDropdown; 
-    [SerializeField] TMP_Dropdown antiAliasingDropdown; 
-    [SerializeField] TMP_Dropdown textureQualityDropdown;
-    [SerializeField] TMP_Dropdown refreshrateDropdown;
-    [SerializeField] Slider volumeSlider; 
+    [Header("Audio Settings")]
+    [SerializeField] AudioMixer audioMixer;
+    [SerializeField] Slider volumeSlider;
+    
+    [Header("Display Settings")]
+    [SerializeField] TMP_Dropdown resolutionDropdown;
+    [SerializeField] TMP_Dropdown refreshRateDropdown;
     [SerializeField] Toggle fullscreenToggle;
+    
+    [Header("Graphics Settings")]
+    [SerializeField] TMP_Dropdown qualityDropdown;
+    [SerializeField] TMP_Dropdown antiAliasingDropdown;
+    [SerializeField] TMP_Dropdown textureQualityDropdown;
+    
     private Resolution[] resolutions;
+    private Dictionary<string, List<int>> availableRefreshRates = new Dictionary<string, List<int>>();
+    private bool isInitializing = true;
     
-    
-    // Start is called before the first frame update
     void Start()
     {
+        // First collect data about the system
         resolutions = Screen.resolutions;
-        LogoLoad();
+        
+        // Initialize UI components
         InitializeResolutions();
+        InitializeRefreshRates();
         InitializeQuality();
-        InitializeVolume();
         InitializeAntiAliasing();
         InitializeTextureQuality();
         InitializeFullscreen();
-        InitializeRefreshrate();
+        InitializeVolume();
+        
+        // Load saved settings after initializing UI
+        LoadSavedSettings();
+        
+        isInitializing = false;
     }
-
-    private void InitializeRefreshrate()
+    
+    // Load and apply all saved settings
+    private void LoadSavedSettings()
     {
-        refreshrateDropdown.ClearOptions();
-        List<string> refreshRateOptions = new List<string>();
-
-        foreach (Resolution res in resolutions)
+        // Load resolution
+        int savedResIndex = PlayerPrefs.GetInt("ResolutionIndex", -1);
+        if (savedResIndex >= 0 && savedResIndex < resolutionDropdown.options.Count)
         {
-            string refreshRateString = $"{res.refreshRateRatio.numerator} Hz";
-            if (!refreshRateOptions.Contains(refreshRateString))
-            {
-                refreshRateOptions.Add(refreshRateString);
-            }
+            resolutionDropdown.value = savedResIndex;
         }
-
-        refreshrateDropdown.AddOptions(refreshRateOptions);
-        refreshrateDropdown.onValueChanged.AddListener(SetResolution);
-    }
-
-
-    public void SetRefreshRate(int refreshRateIndex)
-    {
-        int refreshRate = int.Parse(refreshrateDropdown.options[refreshRateIndex].text.Replace(" Hz", ""));
-        int resolutionIndex = resolutionDropdown.value;
-        string[] selectedResolution = resolutionDropdown.options[resolutionIndex].text.Split('x');
-        int width = int.Parse(selectedResolution[0]);
-        int height = int.Parse(selectedResolution[1]);
-
-        Screen.SetResolution(width, height, Screen.fullScreen, refreshRate);
-        PlayerPrefs.SetInt("RefreshRate", refreshRate);
-    }
-
-
-    // Update is called once per frame
-    void Update()
-    {
         
-    }
-
-    public void LogoLoad()
-    {
+        // Load refresh rate
+        int savedRefreshRate = PlayerPrefs.GetInt("RefreshRate", -1);
+        if (savedRefreshRate > 0)
+        {
+            SetRefreshRateDropdownToClosestValue(savedRefreshRate);
+        }
         
+        // Load quality
+        int savedQuality = PlayerPrefs.GetInt("QualityIndex", -1);
+        if (savedQuality >= 0 && savedQuality < qualityDropdown.options.Count)
+        {
+            qualityDropdown.value = savedQuality;
+            QualitySettings.SetQualityLevel(savedQuality);
+        }
+        
+        // Load anti-aliasing
+        int savedAA = PlayerPrefs.GetInt("AntiAliasing", -1);
+        if (savedAA >= 0 && savedAA < antiAliasingDropdown.options.Count)
+        {
+            antiAliasingDropdown.value = savedAA;
+            int[] aaLevels = { 0, 2, 4, 8 };
+            QualitySettings.antiAliasing = aaLevels[savedAA];
+        }
+        
+        // Load texture quality
+        int savedTexQuality = PlayerPrefs.GetInt("TextureQuality", -1);
+        if (savedTexQuality >= 0 && savedTexQuality < textureQualityDropdown.options.Count)
+        {
+            textureQualityDropdown.value = savedTexQuality;
+            QualitySettings.globalTextureMipmapLimit = savedTexQuality;
+        }
+        
+        // Load fullscreen
+        bool isFullScreen = PlayerPrefs.GetInt("FullScreen", 1) == 1;
+        fullscreenToggle.isOn = isFullScreen;
+        Screen.fullScreenMode = isFullScreen ? FullScreenMode.FullScreenWindow : FullScreenMode.Windowed;
+        
+        // Load volume
+        float savedVolume = PlayerPrefs.GetFloat("Volume", 0.75f);
+        volumeSlider.value = savedVolume;
+        SetVolume(savedVolume);
+        
+        // Apply resolution and refresh rate
+        if (savedResIndex >= 0)
+        {
+            ApplyCurrentResolutionAndRefreshRate();
+        }
     }
-    public void QuitApp()
+    
+    // Set the refresh rate dropdown to the closest available value
+    private void SetRefreshRateDropdownToClosestValue(int targetRefreshRate)
     {
-        Application.Quit();
+        string resolutionKey = resolutionDropdown.options[resolutionDropdown.value].text;
+        
+        if (availableRefreshRates.ContainsKey(resolutionKey))
+        {
+            var rates = availableRefreshRates[resolutionKey];
+            
+            int closestIndex = 0;
+            int closestDiff = int.MaxValue;
+            
+            for (int i = 0; i < rates.Count; i++)
+            {
+                int diff = Mathf.Abs(rates[i] - targetRefreshRate);
+                if (diff < closestDiff)
+                {
+                    closestDiff = diff;
+                    closestIndex = i;
+                }
+            }
+            
+            // Set dropdown to closest value
+            refreshRateDropdown.value = closestIndex;
+        }
     }
+    
+    // Initialize resolution dropdown
     private void InitializeResolutions()
     {
         resolutionDropdown.ClearOptions();
         List<string> resolutionOptions = new List<string>();
-
-        for (int i = 0; i < resolutions.Length; i++)
+        HashSet<string> uniqueResolutions = new HashSet<string>();
+        
+        foreach (Resolution res in resolutions)
         {
-            string resolutionString = $"{resolutions[i].width}x{resolutions[i].height}";
-            resolutionOptions.Add(resolutionString);
+            string resolutionString = $"{res.width}x{res.height}";
+            if (!uniqueResolutions.Contains(resolutionString))
+            {
+                uniqueResolutions.Add(resolutionString);
+                resolutionOptions.Add(resolutionString);
+            }
         }
-
+        
         resolutionDropdown.AddOptions(resolutionOptions);
-        resolutionDropdown.onValueChanged.AddListener(SetResolution); // ✅ Now passes index
+        
+        // Set current resolution as default
+        int currentResIndex = 0;
+        string currentRes = $"{Screen.width}x{Screen.height}";
+        
+        for (int i = 0; i < resolutionOptions.Count; i++)
+        {
+            if (resolutionOptions[i] == currentRes)
+            {
+                currentResIndex = i;
+                break;
+            }
+        }
+        
+        resolutionDropdown.value = currentResIndex;
+        resolutionDropdown.RefreshShownValue();
+        
+        // Add listener after setting initial value
+        resolutionDropdown.onValueChanged.AddListener(OnResolutionChanged);
     }
-
-
-    public void SetResolution(int resolutionIndex)
+    
+    // Initialize refresh rate dropdown
+    private void InitializeRefreshRates()
     {
-        string[] resolutionText = resolutionDropdown.options[resolutionDropdown.value].text.Split('x');
-        if (resolutionText.Length != 2 || !int.TryParse(resolutionText[0].Trim(), out int width) || !int.TryParse(resolutionText[1].Trim(), out int height))
+        // First populate the available refresh rates dictionary
+        foreach (Resolution res in resolutions)
         {
-            Debug.LogError("Invalid resolution format: " + resolutionDropdown.options[resolutionDropdown.value].text);
-            return;
+            string resKey = $"{res.width}x{res.height}";
+            int refreshRate = (int)res.refreshRateRatio.numerator;
+            
+            if (!availableRefreshRates.ContainsKey(resKey))
+            {
+                availableRefreshRates[resKey] = new List<int>();
+            }
+            
+            if (!availableRefreshRates[resKey].Contains(refreshRate))
+            {
+                availableRefreshRates[resKey].Add(refreshRate);
+            }
         }
-
-        string refreshRateText = refreshrateDropdown.options[refreshrateDropdown.value].text.Replace(" Hz", "").Trim();
-        if (!int.TryParse(refreshRateText, out int refreshRate))
+        
+        // Sort the refresh rates for each resolution
+        foreach (var key in availableRefreshRates.Keys)
         {
-            Debug.LogError("Invalid refresh rate format: " + refreshRateText);
-            return;
+            availableRefreshRates[key].Sort();
         }
-
-        Screen.SetResolution(width, height, fullscreenToggle.isOn ? FullScreenMode.FullScreenWindow : FullScreenMode.Windowed, new RefreshRate { numerator = (uint)refreshRate, denominator = 1 });
+        
+        // Initialize with current resolution's refresh rates
+        UpdateRefreshRateDropdown();
+        
+        // Add listener
+        refreshRateDropdown.onValueChanged.AddListener(OnRefreshRateChanged);
     }
-
-
+    
+    // Update refresh rate dropdown based on selected resolution
+    private void UpdateRefreshRateDropdown()
+    {
+        string currentResolution = resolutionDropdown.options[resolutionDropdown.value].text;
+        refreshRateDropdown.ClearOptions();
+        
+        List<string> refreshRateOptions = new List<string>();
+        
+        if (availableRefreshRates.ContainsKey(currentResolution))
+        {
+            foreach (int rate in availableRefreshRates[currentResolution])
+            {
+                refreshRateOptions.Add($"{rate} Hz");
+            }
+        }
+        else
+        {
+            // Fallback if no data for current resolution
+            refreshRateOptions.Add("60 Hz");
+        }
+        
+        refreshRateDropdown.AddOptions(refreshRateOptions);
+        
+        // Set current refresh rate if possible
+        if (availableRefreshRates.ContainsKey(currentResolution))
+        {
+            int currentRefreshRate = (int)Screen.currentResolution.refreshRateRatio.numerator;
+            int closestIndex = 0;
+            int closestDiff = int.MaxValue;
+            
+            for (int i = 0; i < availableRefreshRates[currentResolution].Count; i++)
+            {
+                int diff = Mathf.Abs(availableRefreshRates[currentResolution][i] - currentRefreshRate);
+                if (diff < closestDiff)
+                {
+                    closestDiff = diff;
+                    closestIndex = i;
+                }
+            }
+            
+            refreshRateDropdown.value = closestIndex;
+        }
+        
+        refreshRateDropdown.RefreshShownValue();
+    }
+    
     // Initialize quality dropdown
     private void InitializeQuality()
     {
         qualityDropdown.ClearOptions();
         string[] qualityNames = QualitySettings.names;
         List<string> options = new List<string>(qualityNames);
-
+        
         qualityDropdown.AddOptions(options);
         qualityDropdown.value = QualitySettings.GetQualityLevel();
         qualityDropdown.RefreshShownValue();
+        qualityDropdown.onValueChanged.AddListener(SetQuality);
     }
-
-    public void SetQuality(int qualityIndex)
-    {
-        QualitySettings.SetQualityLevel(qualityIndex);
-        PlayerPrefs.SetInt("QualityIndex", qualityIndex);
-    }
-
+    
     // Initialize Anti-Aliasing dropdown
     private void InitializeAntiAliasing()
     {
         List<string> options = new List<string> { "Off", "2x", "4x", "8x" };
         antiAliasingDropdown.ClearOptions();
         antiAliasingDropdown.AddOptions(options);
-
-        int savedValue = PlayerPrefs.GetInt("AntiAliasing", 0); // Default to "Off"
-        antiAliasingDropdown.value = savedValue;
+        
+        // Get current AA setting
+        int currentAA = QualitySettings.antiAliasing;
+        int dropdownIndex = 0;
+        
+        switch (currentAA)
+        {
+            case 0: dropdownIndex = 0; break;
+            case 2: dropdownIndex = 1; break;
+            case 4: dropdownIndex = 2; break;
+            case 8: dropdownIndex = 3; break;
+        }
+        
+        antiAliasingDropdown.value = dropdownIndex;
         antiAliasingDropdown.RefreshShownValue();
+        antiAliasingDropdown.onValueChanged.AddListener(SetAntiAliasing);
     }
-
-    public void SetAntiAliasing(int value)
-    {
-        int[] aaLevels = { 0, 2, 4, 8 };
-        QualitySettings.antiAliasing = aaLevels[value];
-        PlayerPrefs.SetInt("AntiAliasing", value);
-    }
-
+    
     // Initialize Texture Quality dropdown
     private void InitializeTextureQuality()
     {
         List<string> options = new List<string> { "Full Res", "Half Res", "Quarter Res", "Eighth Res" };
         textureQualityDropdown.ClearOptions();
         textureQualityDropdown.AddOptions(options);
-
-        int savedValue = PlayerPrefs.GetInt("TextureQuality", 0); // Default to "Full Res"
-        textureQualityDropdown.value = savedValue;
+        
+        int currentTexLevel = QualitySettings.globalTextureMipmapLimit;
+        textureQualityDropdown.value = currentTexLevel;
         textureQualityDropdown.RefreshShownValue();
+        textureQualityDropdown.onValueChanged.AddListener(SetTextureQuality);
     }
-
-    public void SetTextureQuality(int value)
-    {
-        QualitySettings.globalTextureMipmapLimit = value; // 0 = Full, 1 = Half, 2 = Quarter, etc.
-        PlayerPrefs.SetInt("TextureQuality", value);
-    }
-
+    
     // Initialize volume slider
     private void InitializeVolume()
     {
-        float savedVolume = PlayerPrefs.GetFloat("Volume", 0.75f);
-        volumeSlider.value = savedVolume;
-        SetVolume(savedVolume);
+        float volume = 0.75f;
+        if (audioMixer.GetFloat("Volume", out float volumeValue))
+        {
+            volume = Mathf.Pow(10, volumeValue / 20);
+        }
+        
+        volumeSlider.value = volume;
+        volumeSlider.onValueChanged.AddListener(SetVolume);
     }
-
+    
+    // Initialize fullscreen toggle
+    private void InitializeFullscreen()
+    {
+        fullscreenToggle.isOn = Screen.fullScreen;
+        fullscreenToggle.onValueChanged.AddListener(SetFullScreen);
+    }
+    
+    // Event handler for resolution dropdown change
+    private void OnResolutionChanged(int index)
+    {
+        // Update refresh rate options when resolution changes
+        UpdateRefreshRateDropdown();
+        
+        if (!isInitializing)
+        {
+            ApplyCurrentResolutionAndRefreshRate();
+        }
+    }
+    
+    // Event handler for refresh rate dropdown change
+    private void OnRefreshRateChanged(int index)
+    {
+        if (!isInitializing)
+        {
+            ApplyCurrentResolutionAndRefreshRate();
+        }
+    }
+    
+    // Apply the currently selected resolution and refresh rate
+    private void ApplyCurrentResolutionAndRefreshRate()
+    {
+        string resolutionText = resolutionDropdown.options[resolutionDropdown.value].text;
+        string[] resParts = resolutionText.Split('x');
+        
+        if (resParts.Length != 2 || !int.TryParse(resParts[0], out int width) || !int.TryParse(resParts[1], out int height))
+        {
+            Debug.LogError("Invalid resolution format: " + resolutionText);
+            return;
+        }
+        
+        string refreshRateText = refreshRateDropdown.options[refreshRateDropdown.value].text.Replace(" Hz", "");
+        if (!int.TryParse(refreshRateText, out int refreshRate))
+        {
+            Debug.LogError("Invalid refresh rate format: " + refreshRateText);
+            return;
+        }
+        
+        // Apply resolution, refresh rate, and fullscreen mode
+        Screen.SetResolution(
+            width, 
+            height, 
+            fullscreenToggle.isOn ? FullScreenMode.FullScreenWindow : FullScreenMode.Windowed,
+            new RefreshRate { numerator = (uint)refreshRate, denominator = 1 }
+        );
+        
+        // Save resolution and refresh rate to player prefs
+        PlayerPrefs.SetInt("ResolutionIndex", resolutionDropdown.value);
+        PlayerPrefs.SetInt("RefreshRate", refreshRate);
+    }
+    
+    // Set quality level
+    public void SetQuality(int qualityIndex)
+    {
+        QualitySettings.SetQualityLevel(qualityIndex);
+        PlayerPrefs.SetInt("QualityIndex", qualityIndex);
+    }
+    
+    // Set anti-aliasing level
+    public void SetAntiAliasing(int value)
+    {
+        int[] aaLevels = { 0, 2, 4, 8 };
+        QualitySettings.antiAliasing = aaLevels[value];
+        PlayerPrefs.SetInt("AntiAliasing", value);
+    }
+    
+    // Set texture quality
+    public void SetTextureQuality(int value)
+    {
+        QualitySettings.globalTextureMipmapLimit = value;
+        PlayerPrefs.SetInt("TextureQuality", value);
+    }
+    
+    // Set volume
     public void SetVolume(float volume)
     {
         audioMixer.SetFloat("Volume", Mathf.Log10(Mathf.Max(volume, 0.0001f)) * 20);
         PlayerPrefs.SetFloat("Volume", volume);
     }
-
-    // Initialize fullscreen toggle
-    private void InitializeFullscreen()
-    {
-        bool isFullScreen = PlayerPrefs.GetInt("FullScreen", 1) == 1; // Default to fullscreen
-        fullscreenToggle.isOn = isFullScreen;
-        Screen.fullScreenMode = isFullScreen ? FullScreenMode.FullScreenWindow : FullScreenMode.Windowed;
-    }
-
+    
+    // Set fullscreen mode
     public void SetFullScreen(bool isFullScreen)
     {
-        Screen.fullScreen = isFullScreen;
+        Screen.fullScreenMode = isFullScreen ? FullScreenMode.FullScreenWindow : FullScreenMode.Windowed;
         PlayerPrefs.SetInt("FullScreen", isFullScreen ? 1 : 0);
+        
+        // Re-apply resolution to ensure it works with the new screen mode
+        ApplyCurrentResolutionAndRefreshRate();
     }
+    
+    // Save all settings
     public void SaveSettings()
     {
-        Debug.Log("Resolution Index: " + resolutionDropdown.value);
-        Debug.Log("Quality Index: " + qualityDropdown.value);
-        Debug.Log("Anti Aliasing: " + antiAliasingDropdown.value);
-        Debug.Log("Texture Quality: " + textureQualityDropdown.value);
-        Debug.Log("Refresh Rate: " + refreshrateDropdown.options[refreshrateDropdown.value].text);
-        Debug.Log("Volume: " + volumeSlider.value);
-        Debug.Log("Full Screen: " + fullscreenToggle.isOn);
-
-        PlayerPrefs.SetInt("ResolutionIndex", resolutionDropdown.value);
-        PlayerPrefs.SetInt("QualityIndex", qualityDropdown.value);
-        PlayerPrefs.SetInt("AntiAliasing", antiAliasingDropdown.value);
-        PlayerPrefs.SetInt("TextureQuality", textureQualityDropdown.value);
-        PlayerPrefs.SetInt("RefreshRate", int.Parse(refreshrateDropdown.options[refreshrateDropdown.value].text.Replace(" Hz", "")));
-        PlayerPrefs.SetInt("FullScreen", fullscreenToggle.isOn ? 1 : 0);
-        PlayerPrefs.SetFloat("Volume", volumeSlider.value);
+        // All individual settings are already saved in their respective methods
+        // This ensures PlayerPrefs are written to disk
         PlayerPrefs.Save();
         Debug.Log("Settings Saved!");
     }
-
-
-
+    
+    // Exit the application
+    public void QuitApp()
+    {
+        SaveSettings();
+        Application.Quit();
+    }
 }
-
-

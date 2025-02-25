@@ -11,6 +11,8 @@
     "com.unity.ide.vscode": "1.2.5",
     "com.unity.inputsystem": "1.11.0",
     "com.unity.mathematics": "1.2.6",
+    "com.unity.postprocessing": "3.4.0",
+    "com.unity.progrids": "3.0.3-preview.6",
     "com.unity.render-pipelines.core": "14.0.11",
     "com.unity.render-pipelines.universal": "14.0.11",
     "com.unity.searcher": "4.9.2",

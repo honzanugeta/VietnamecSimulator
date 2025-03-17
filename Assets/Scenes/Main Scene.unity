@@ -582,7 +582,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fadbce8a36635466395fd3c884eb60e9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 913ff657b4618bc43a5d49ae639ffcd0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1289,7 +1289,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f1818d65be372447089caef65883438f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ac3e2312b3462ce47a4eec7cf6f66b36, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1415,7 +1415,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -1859,7 +1859,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &320689068
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3393,7 +3393,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6d7f4922094f543e4ab79400d60d3dc3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5c0ac3dad290f4e46ac74cc8aaf597ca, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3985,7 +3985,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 19b92431caeba4699a6d408231fe3131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2b044e7e01eb8694b944d5ceddc4fcc1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4365,7 +4365,7 @@ RectTransform:
   m_Father: {fileID: 157254502}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -6336,7 +6336,7 @@ RectTransform:
   m_Father: {fileID: 179876837}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -7891,7 +7891,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 50c36447d16b74c649725216303da965, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 607403ce4b60b104585e5e96eb4d496a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8819,7 +8819,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -8950,10 +8950,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1939401013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a9484d5ef1274830a2ba43ed6c6f66f, type: 3}
+  m_Script: {fileID: 11500000, guid: c331acece2d84c94bac89d633f48e86e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: c59336c1f89504d09b9a74adee4c2b60, type: 2}
+  audioMixer: {fileID: 24100000, guid: 42b70539a68908c4ebe139829a61560b, type: 2}
   volumeSlider: {fileID: 401616663}
   resolutionDropdown: {fileID: 1649013978}
   refreshRateDropdown: {fileID: 584305069}
@@ -9655,7 +9655,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 687.5285, y: -438.68442}
+  m_AnchoredPosition: {x: 784, y: -448}
   m_SizeDelta: {x: 300, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2012575277
@@ -9923,7 +9923,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2038430182
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9955,7 +9955,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2038430181}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9eb83cdf2ccda4e729d6fc4cd3c9d4e5, type: 3}
+  m_Script: {fileID: 11500000, guid: 37b214aece23d3a40972140d455dfd3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2069913889

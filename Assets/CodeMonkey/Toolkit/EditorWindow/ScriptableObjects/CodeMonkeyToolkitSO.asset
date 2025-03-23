@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.0.1
   subtype: toolkit
-  lastShownTimestamp: 1742366191
+  lastShownTimestamp: 1742733241
   toolSOList:
   - {fileID: 11400000, guid: 1b96a072ad3869f47920825dbc9c1aa5, type: 2}
   - {fileID: 11400000, guid: 8c716cde35b6b2547b1785a4e840af57, type: 2}
@@ -60,39 +60,38 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 036c05b3d0bb8134bb4f680552253350, type: 2}
   - {fileID: 11400000, guid: df7fdd0bb0db42c44ab6dd6e812fa9ab, type: 2}
   lastUpdateResponse:
-    version: 1.0.1
+    version: 1.0.2
     versionUrl: https://cmonkey.co/toolkit
     enabled: 1
-  checkedLastUpdateTimestamp: 1742366191
+  checkedLastUpdateTimestamp: 1742733240
   lastQOTDResponse:
-    questionId: 161
-    questionText: Can Color ever be null?
-    answerA: Yes, always
-    answerB: No
-    answerC: Yes, as Nullable
+    questionId: 163
+    questionText: What is the purpose of Unity Hub?
+    answerA: Provide a space for the community to interact
+    answerB: Manage different Unity versions and Projects
+    answerC: Dashboard for Unity services
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1742366191
+  lastQotdTimestamp: 1742733240
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/codeMonkeyToolkitLaunch.png
-    topText: Get my Toolkit! 40 Tools and Elements to help you make games BETTER
-      and FASTER!
-    topLink: toolkit
-    bottomText: Awesome Low Poly assets bundle 96% OFF!
-    bottomLink: humblebundle
-  lastDynamicHeaderTimestamp: 1742366191
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleBundleSyntyMar25.png
+    topText: Make ANY game with these awesome Assets! (96% OFF ENDS SOON!)
+    topLink: humblebundle
+    bottomText: Learn Unity DOTS for MASSIVE Performance Boosts! (and make an RTS)
+    bottomLink: dotscourse
+  lastDynamicHeaderTimestamp: 1742733240
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/toolkit">Please write a Review on the Asset
       Store!</a>
-  websiteLatestMessageTimestamp: 1742366191
+  websiteLatestMessageTimestamp: 1742733240
   websiteLatestVideos:
     videos:
+    - youTubeId: ZIg7VoD9ptI
+      title: The FUTURE of Unity in 2025 and BEYOND!
+    - youTubeId: W_XOZAWJF24
+      title: I made the MOST PROFITABLE Game as a Test!
+    - youTubeId: J0KMvH-yFmA
+      title: TOP 10 NEW Games, Made with Unity! (FEBRUARY 2025)
     - youTubeId: DOSLOa7cnoE
       title: I SHOULD have done this a long time ago, and YOU too!
-    - youTubeId: luFBmRyzZow
-      title: The 5 TRENDS shaping Game Development in 2025!
-    - youTubeId: V2em5OIX4Kw
-      title: TOP 10 FREE NEW Assets MARCH 2025!
-    - youTubeId: dCET8Jx-5Ts
-      title: Vibe Coding is the Future (?)
-  websiteLatestVideosTimestamp: 1742366191
+  websiteLatestVideosTimestamp: 1742733240

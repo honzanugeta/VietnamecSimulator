@@ -17,9 +17,11 @@ namespace CodeMonkey.Toolkit.TInteractionSystemLookAt {
         public void ToggleDoor() {
             isOpen = !isOpen;
             if (isOpen) {
-                animator.SetTrigger("Open");
+                animator.SetBool("Open", true);
+                Debug.Log("Opening");
             } else {
-                animator.SetTrigger("Close");
+                animator.SetBool("Open", false);
+                Debug.Log("Closing");
             }
         }
 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace CodeMonkey.Toolkit.TInteractionSystemLookAt {
 
-    public class OpenCloseVecerka : MonoBehaviour, IInteractable {
+    public class RightDoorFridge : MonoBehaviour, IInteractable {
 
         private bool isOpen;
         private Transform doorTransform;
@@ -26,15 +26,19 @@ namespace CodeMonkey.Toolkit.TInteractionSystemLookAt {
 
         private IEnumerator RotateDoorCoroutine(bool open) {
             float time = 0;
-            Vector3 startRotation = doorTransform.localEulerAngles;
-            Vector3 endRotation = open ? new Vector3(-90, 180, -175) : new Vector3(-90, 180, -85); // Adjust the end rotation as needed
+            float startYRotation = doorTransform.localEulerAngles.y;
+            float endYRotation = open ? -90f : 0f; // Adjust the end rotation as needed
+
+            // Ensure the shortest path is taken
+            if (startYRotation > 180f) startYRotation -= 360f;
 
             while (time < doorRotateDuration) {
                 time += Time.deltaTime;
-                doorTransform.localEulerAngles = Vector3.Lerp(startRotation, endRotation, time / doorRotateDuration);
+                float yRotation = Mathf.Lerp(startYRotation, endYRotation, time / doorRotateDuration);
+                doorTransform.localEulerAngles = new Vector3(doorTransform.localEulerAngles.x, yRotation, doorTransform.localEulerAngles.z);
                 yield return null;
             }
-            doorTransform.localEulerAngles = endRotation;
+            doorTransform.localEulerAngles = new Vector3(doorTransform.localEulerAngles.x, endYRotation, doorTransform.localEulerAngles.z);
         }
 
         public void Interact(IInteractable.InteractAction interactAction, Transform interactorTransform) {

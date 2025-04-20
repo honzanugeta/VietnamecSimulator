@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject centerDot;
     [SerializeField] public GameObject OrderingTablet;
     [SerializeField] private GameObject inventoryUI;
+    [SerializeField] private PrefabSwooshAnimation prefabSwooshAnimation;
+
     private bool PauseActive = false;
     
     // Start is called before the first frame update
@@ -69,6 +71,10 @@ public class GameManager : MonoBehaviour
         // Enable cursor visibility and unlock it when the tablet is active
         Cursor.visible = OrderingTabletActive;
         Cursor.lockState = OrderingTabletActive ? CursorLockMode.None : CursorLockMode.Locked;
+        if (prefabSwooshAnimation != null)
+        {
+            prefabSwooshAnimation.AnimatePrefab(OrderingTabletActive);
+        }
     }
 
     public void ToggleInventory()

@@ -6,33 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4cdbdc15-ca81-46d8-8419-5b20552b70c1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VietnamecSimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VietnamecSimulator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/ACBox.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ACBox.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/InteractionSystemLookAt/Demo/DoorInteractable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/InteractionSystemLookAt/Demo/DoorInteractable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/metal_cheese.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/metal_cheese.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/metal_garage.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/metal_garage.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/plastic_black_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/plastic_black_02.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RenderTextures/CCTVmaterial1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RenderTextures/CCTVmaterial1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RenderTextures/CCTVmaterial2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RenderTextures/CCTVmaterial2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RenderTextures/CCTVmaterial3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RenderTextures/CCTVmaterial3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RenderTextures/CCTVmaterial4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RenderTextures/CCTVmaterial4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/plywood.001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/plywood.001.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1/ReflectionProbe-0.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-0_comp_light.exr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 2/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 2/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 2/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 2/ReflectionProbe-0.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OpenCloseVecerka.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OpenCloseVecerka.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/High_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/High_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Low_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Low_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Medium_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Medium_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Ultra_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Ultra_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Very High_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Very High_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Very Low_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Very Low_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +28,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventoryslot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventoryui.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PrefabSwooshAnimation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@bd2aa618476e/Runtime/Data/UniversalRenderPipelineAsset.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -167,6 +148,8 @@
       <workItem from="1742767294085" duration="1401000" />
       <workItem from="1742809153600" duration="804000" />
       <workItem from="1742986828455" duration="4065000" />
+      <workItem from="1743075825004" duration="2235000" />
+      <workItem from="1743156496975" duration="4622000" />
     </task>
     <servers />
   </component>

@@ -14,8 +14,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject centerDot;
     [SerializeField] public GameObject OrderingTablet;
     [SerializeField] private GameObject inventoryUI;
-    [SerializeField] private GameObject TabletPrefab;
-    [SerializeField] private Transform TabletSpawningPoint;
+   
 
     private bool PauseActive = false;
     
@@ -76,49 +75,9 @@ public class GameManager : MonoBehaviour
         Cursor.visible = OrderingTabletActive;
         Cursor.lockState = OrderingTabletActive ? CursorLockMode.None : CursorLockMode.Locked;
 
-        // Spawn the tablet with swoosh animation if activating
-        if (OrderingTabletActive && spawnedTablet == null)
-        {
-            StartCoroutine(DelayedSpawnTabletWithSwoosh(0.5f)); // Add a delay of 0.5 seconds
-        }
-        else if (!OrderingTabletActive && spawnedTablet != null)
-        {
-            Destroy(spawnedTablet); // Destroy the tablet if deactivating
-            spawnedTablet = null;
-        }
+       
     }
     
-    private IEnumerator DelayedSpawnTabletWithSwoosh(float delay)
-    {
-        yield return new WaitForSeconds(delay); // Wait for the specified delay
-
-        // Spawn the prefab with the specified rotation
-        spawnedTablet = Instantiate(TabletPrefab, TabletSpawningPoint.position, Quaternion.Euler(1, -7, -60 ));
-    
-        // Set the initial scale
-        spawnedTablet.transform.localScale = new Vector3(0.25f, 0.25f, 0.400000006f);
-    }
-
-    private IEnumerator SwooshInAnimation(GameObject tablet)
-    {
-        float duration = 0.5f; // Animation duration
-        float elapsedTime = 0f;
-
-        Vector3 targetScale = Vector3.one * 0.25f; // Target scale
-
-        while (elapsedTime < duration)
-        {
-            elapsedTime += Time.deltaTime;
-            float progress = elapsedTime / duration;
-
-            // Interpolate scale
-            tablet.transform.localScale = Vector3.Lerp(Vector3.zero, targetScale, progress);
-            yield return null;
-        }
-
-        tablet.transform.localScale = targetScale; // Ensure final scale is set
-    }
-
     public void ToggleInventory()
     {
         bool isActive = inventoryUI.activeSelf; // Get the current active state

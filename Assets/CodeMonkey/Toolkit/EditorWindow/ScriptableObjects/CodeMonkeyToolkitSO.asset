@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.0.1
   subtype: toolkit
-  lastShownTimestamp: 1742733241
+  lastShownTimestamp: 1745856195
   toolSOList:
   - {fileID: 11400000, guid: 1b96a072ad3869f47920825dbc9c1aa5, type: 2}
   - {fileID: 11400000, guid: 8c716cde35b6b2547b1785a4e840af57, type: 2}
@@ -63,35 +63,37 @@ MonoBehaviour:
     version: 1.0.2
     versionUrl: https://cmonkey.co/toolkit
     enabled: 1
-  checkedLastUpdateTimestamp: 1742733240
+  checkedLastUpdateTimestamp: 1745856261
   lastQOTDResponse:
-    questionId: 163
-    questionText: What is the purpose of Unity Hub?
-    answerA: Provide a space for the community to interact
-    answerB: Manage different Unity versions and Projects
-    answerC: Dashboard for Unity services
+    questionId: 175
+    questionText: When you create a new script, do you always have to extend MonoBehaviour?
+    answerA: Yes
+    answerB: No
+    answerC: Only if you want to use it as a Game Object Component
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1742733240
+  lastQotdTimestamp: 1745856261
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleBundleSyntyMar25.png
-    topText: Make ANY game with these awesome Assets! (96% OFF ENDS SOON!)
-    topLink: humblebundle
-    bottomText: Learn Unity DOTS for MASSIVE Performance Boosts! (and make an RTS)
-    bottomLink: dotscourse
-  lastDynamicHeaderTimestamp: 1742733240
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/assetStoreSpringSale25.png
+    topText: Spring Sale on the Asset Store, browse the Daily FLASH DEALS list to
+      see what will be 70% OFF!
+    topLink: unityassetstore
+    bottomText: Learn to get more WISHLISTS and SALES! (Spring Sale Discount Ends
+      SOON!)
+    bottomLink: howtomarketagame
+  lastDynamicHeaderTimestamp: 1745856261
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/toolkit">Please write a Review on the Asset
       Store!</a>
-  websiteLatestMessageTimestamp: 1742733240
+  websiteLatestMessageTimestamp: 1745856261
   websiteLatestVideos:
     videos:
-    - youTubeId: ZIg7VoD9ptI
-      title: The FUTURE of Unity in 2025 and BEYOND!
-    - youTubeId: W_XOZAWJF24
-      title: I made the MOST PROFITABLE Game as a Test!
-    - youTubeId: J0KMvH-yFmA
-      title: TOP 10 NEW Games, Made with Unity! (FEBRUARY 2025)
-    - youTubeId: DOSLOa7cnoE
-      title: I SHOULD have done this a long time ago, and YOU too!
-  websiteLatestVideosTimestamp: 1742733240
+    - youTubeId: YS6Jhj0nqgc
+      title: Do Gamers recognize Asset Packs?
+    - youTubeId: 6IF6Sgoj4R4
+      title: What makes a Game LOW EFFORT?
+    - youTubeId: WMYY2GBjdcE
+      title: AWESOME Assets 70% OFF! (Make something FUN with the Spring Sale!)
+    - youTubeId: TZtbhCoff9Y
+      title: I found a MAGICAL GitHub project! (FREE Desktop in Unity!)
+  websiteLatestVideosTimestamp: 1745856261

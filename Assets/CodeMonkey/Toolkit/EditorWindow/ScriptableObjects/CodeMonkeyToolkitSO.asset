@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.0.1
   subtype: toolkit
-  lastShownTimestamp: 1745856195
+  lastShownTimestamp: 1749736738
   toolSOList:
   - {fileID: 11400000, guid: 1b96a072ad3869f47920825dbc9c1aa5, type: 2}
   - {fileID: 11400000, guid: 8c716cde35b6b2547b1785a4e840af57, type: 2}
@@ -63,37 +63,43 @@ MonoBehaviour:
     version: 1.0.2
     versionUrl: https://cmonkey.co/toolkit
     enabled: 1
-  checkedLastUpdateTimestamp: 1745856261
+  checkedLastUpdateTimestamp: 1749772106
   lastQOTDResponse:
-    questionId: 175
-    questionText: When you create a new script, do you always have to extend MonoBehaviour?
-    answerA: Yes
-    answerB: No
-    answerC: Only if you want to use it as a Game Object Component
+    questionId: 190
+    questionText: 'What is the value stored in percentage?
+
+      <p>int health =
+      25;</p>
+
+      <p>int healthMax = 100;</p>
+
+      <p>float percentage = health
+      / healthMax;</p>'
+    answerA: 0.25f
+    answerB: 0
+    answerC: 2.5f
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1745856261
+  lastQotdTimestamp: 1749772106
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/assetStoreSpringSale25.png
-    topText: Spring Sale on the Asset Store, browse the Daily FLASH DEALS list to
-      see what will be 70% OFF!
-    topLink: unityassetstore
-    bottomText: Learn to get more WISHLISTS and SALES! (Spring Sale Discount Ends
-      SOON!)
-    bottomLink: howtomarketagame
-  lastDynamicHeaderTimestamp: 1745856261
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/ultimateOverview70_6FreeUpdate.png
+    topText: Learn how to use 70 Tools and Features! (Unity 6 Updated)
+    topLink: ultimateunityoverview
+    bottomText: My 10+ Years of C# Knowledge in 1 Course!
+    bottomLink: csharpcourse
+  lastDynamicHeaderTimestamp: 1749772106
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/toolkit">Please write a Review on the Asset
       Store!</a>
-  websiteLatestMessageTimestamp: 1745856261
+  websiteLatestMessageTimestamp: 1749772106
   websiteLatestVideos:
     videos:
-    - youTubeId: YS6Jhj0nqgc
-      title: Do Gamers recognize Asset Packs?
-    - youTubeId: 6IF6Sgoj4R4
-      title: What makes a Game LOW EFFORT?
-    - youTubeId: WMYY2GBjdcE
-      title: AWESOME Assets 70% OFF! (Make something FUN with the Spring Sale!)
-    - youTubeId: TZtbhCoff9Y
-      title: I found a MAGICAL GitHub project! (FREE Desktop in Unity!)
-  websiteLatestVideosTimestamp: 1745856261
+    - youTubeId: jPXFBmfInRQ
+      title: YOU can CHANGE the FUTURE of Unity!
+    - youTubeId: IPwIpYP3dvg
+      title: 70 Unity Tools and Features in 16 MINUTES!
+    - youTubeId: U5Wolv65yK8
+      title: Dev followed my FREE course, then made $150,000!
+    - youTubeId: NzyU-WuXfk4
+      title: TOP 20 Visual Assets to INSPIRE YOU! (MAY 2025)
+  websiteLatestVideosTimestamp: 1749772106

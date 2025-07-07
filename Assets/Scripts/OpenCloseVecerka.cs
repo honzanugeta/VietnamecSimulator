@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CodeMonkey.Toolkit.TInteractionSystemLookAt {
+
 
     public class OpenCloseVecerka : MonoBehaviour, IInteractable {
 
         private bool isOpen;
         private Transform doorTransform;
-        private float doorRotateDuration = 1.0f; // Duration of the rotation
+        private float doorRotateDuration = 1.0f;
 
         private void Awake() {
-            doorTransform = transform;
+            doorTransform = transform; // Should be DoorHinge with correct pivot
         }
 
         public void ToggleDoor() {
@@ -25,16 +25,24 @@ namespace CodeMonkey.Toolkit.TInteractionSystemLookAt {
         }
 
         private IEnumerator RotateDoorCoroutine(bool open) {
-            float time = 0;
-            Vector3 startRotation = doorTransform.localEulerAngles;
-            Vector3 endRotation = open ? new Vector3(-90, 180, -175) : new Vector3(-90, 180, -85); // Adjust the end rotation as needed
+            float time = 0f;
+
+            // Get Y rotation only and work relative to local space
+            float startY = doorTransform.localEulerAngles.y;
+            float endY = open ? -90f : 0f;
+
+            // Fix for 360 to -90 wraparound issues
+            if (startY > 180) startY -= 360;
 
             while (time < doorRotateDuration) {
                 time += Time.deltaTime;
-                doorTransform.localEulerAngles = Vector3.Lerp(startRotation, endRotation, time / doorRotateDuration);
+                float currentY = Mathf.Lerp(startY, endY, time / doorRotateDuration);
+                Vector3 currentRotation = new Vector3(0f, currentY, 0f);
+                doorTransform.localEulerAngles = currentRotation;
                 yield return null;
             }
-            doorTransform.localEulerAngles = endRotation;
+
+            doorTransform.localEulerAngles = new Vector3(0f, endY, 0f);
         }
 
         public void Interact(IInteractable.InteractAction interactAction, Transform interactorTransform) {
@@ -57,4 +65,3 @@ namespace CodeMonkey.Toolkit.TInteractionSystemLookAt {
 
     }
 
-}

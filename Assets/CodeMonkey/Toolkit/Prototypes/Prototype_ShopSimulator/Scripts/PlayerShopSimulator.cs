@@ -9,7 +9,7 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
         public static PlayerShopSimulator Instance { get; private set; }
 
 
-        [SerializeField] private Transform carryingObjectParentTransform;
+        [SerializeField] protected Transform carryingObjectParentTransform;
 
 
         private PlayerInteractLookAt playerInteractLookAt;

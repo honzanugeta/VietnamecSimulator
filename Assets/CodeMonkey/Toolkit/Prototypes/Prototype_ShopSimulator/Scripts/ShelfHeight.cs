@@ -12,16 +12,17 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
         public enum HeightType {
             Top,
             Middle,
+            SecondToLast,
             Bottom,
         }
 
 
-        [SerializeField] private HeightType heightType;
-        [SerializeField] private Transform gridOriginTransform;
-        [SerializeField] private Shelf shelf;
+        [SerializeField] protected HeightType heightType;
+        [SerializeField] protected Transform gridOriginTransform;
+        [SerializeField] protected Shelf shelf;
 
 
-        private ObjectType objectType;
+        protected ObjectType objectType;
 
 
         public bool IsEmpty() {

@@ -54,9 +54,9 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
         }
 
 
-        [SerializeField] private ShelfHeight[] shelfHeightArray;
+        [SerializeField] protected ShelfHeight[] shelfHeightArray;
         [SerializeField] private Transform gridDebugObject;
-        [SerializeField] private Transform interactFromPositionTransform;
+        [SerializeField] protected Transform interactFromPositionTransform;
 
 
         private GridSystem<GridObject>[] gridSystemArray;

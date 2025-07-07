@@ -14,9 +14,16 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject centerDot;
     [SerializeField] public GameObject OrderingTablet;
     [SerializeField] private GameObject inventoryUI;
-    [SerializeField] private PrefabSwooshAnimation prefabSwooshAnimation;
+    [SerializeField] private GameObject BalanceDisplay;
+    [SerializeField] private GameObject insuficientFundsDisplay;
+    
+    
+   
 
     private bool PauseActive = false;
+    
+    private GameObject spawnedTablet;
+
     
     // Start is called before the first frame update
     void Start()
@@ -43,7 +50,22 @@ public class GameManager : MonoBehaviour
         {
             ToggleOrderingTablet();
         }
+
+        // Automatically hide OrderingTablet when insufficient funds popup is active
+        if (insuficientFundsDisplay.activeSelf && OrderingTablet.activeSelf)
+        {
+            OrderingTablet.SetActive(false);
+        
+            // Optionally re-enable controls since tablet is now closed
+            if (FirstPersonController != null) FirstPersonController.enabled = true;
+            if (PlayerMovementScript != null) PlayerMovementScript.enabled = true;
+            if (centerDot != null) centerDot.SetActive(true);
+
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+        }
     }
+
 
     public void QuitGame()
     {
@@ -61,22 +83,20 @@ public class GameManager : MonoBehaviour
         bool OrderingTabletActive = !isActive;
 
         // Enable/disable related components based on the new state
-        if (FirstPersonController != null) 
+        if (FirstPersonController != null)
             FirstPersonController.enabled = !OrderingTabletActive;
-        if (PlayerMovementScript != null) 
+        if (PlayerMovementScript != null)
             PlayerMovementScript.enabled = !OrderingTabletActive;
-        if (centerDot != null) 
+        if (centerDot != null)
             centerDot.SetActive(!OrderingTabletActive);
 
         // Enable cursor visibility and unlock it when the tablet is active
         Cursor.visible = OrderingTabletActive;
         Cursor.lockState = OrderingTabletActive ? CursorLockMode.None : CursorLockMode.Locked;
-        if (prefabSwooshAnimation != null)
-        {
-            prefabSwooshAnimation.AnimatePrefab(OrderingTabletActive);
-        }
-    }
 
+       
+    }
+    
     public void ToggleInventory()
     {
         bool isActive = inventoryUI.activeSelf; // Get the current active state
@@ -106,6 +126,9 @@ public class GameManager : MonoBehaviour
         {
             if (OrderingTablet != null) OrderingTablet.SetActive(false);
             if (inventoryUI != null) inventoryUI.SetActive(false);
+            if (BalanceDisplay != null) BalanceDisplay.SetActive(false);
+            if (insuficientFundsDisplay != null) insuficientFundsDisplay.SetActive(false);
+                
                 
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None; // Unlock the cursor
@@ -119,7 +142,12 @@ public class GameManager : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked; // Lock the cursor back
             if (FirstPersonController != null) FirstPersonController.enabled = true; // Enable camera movement
             if (PlayerMovementScript != null) PlayerMovementScript.enabled = true;  // Enable player movement
-            if (centerDot != null) centerDot.SetActive(true); 
+            if (centerDot != null) centerDot.SetActive(true);
+            if (BalanceDisplay != null) BalanceDisplay.SetActive(true);
+            if ((insuficientFundsDisplay != null) && insuficientFundsDisplay.activeSelf)
+            {
+                insuficientFundsDisplay.SetActive(false); // Hide insufficient funds display when resuming
+            }
         }
     }
 }

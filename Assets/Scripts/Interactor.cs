@@ -25,7 +25,7 @@ public class Interactor : MonoBehaviour
             if (interactable != null && Input.GetKeyDown(KeyCode.E)) 
             {
                 Debug.Log("pressin e");
-                interactable.Interact(this);
+                interactable.Interact(IInteractable.InteractAction.Stock, transform);
             }
         }
     }

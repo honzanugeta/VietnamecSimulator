@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CodeMonkey.Toolkit.TInteractionSystemLookAt {
+
 
     public class RightDoorFridge : MonoBehaviour, IInteractable {
 
@@ -61,4 +61,3 @@ namespace CodeMonkey.Toolkit.TInteractionSystemLookAt {
 
     }
 
-}

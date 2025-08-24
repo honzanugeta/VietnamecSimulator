@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7c5ea4eb1941980429abac9d717329c7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 213045
+  packageName: Low Poly Metal Rack
+  packageVersion: 1.0.1
+  assetPath: Assets/LowPolyMetalRack/Prefabs/MetalRack_Shelf_Board_Half.prefab
+  uploadId: 481925

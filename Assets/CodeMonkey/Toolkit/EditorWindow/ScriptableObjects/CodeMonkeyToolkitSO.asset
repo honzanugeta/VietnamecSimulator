@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.0.1
   subtype: toolkit
-  lastShownTimestamp: 1749736738
+  lastShownTimestamp: 1755003382
   toolSOList:
   - {fileID: 11400000, guid: 1b96a072ad3869f47920825dbc9c1aa5, type: 2}
   - {fileID: 11400000, guid: 8c716cde35b6b2547b1785a4e840af57, type: 2}
@@ -63,43 +63,36 @@ MonoBehaviour:
     version: 1.0.2
     versionUrl: https://cmonkey.co/toolkit
     enabled: 1
-  checkedLastUpdateTimestamp: 1749772106
+  checkedLastUpdateTimestamp: 1755029142
   lastQOTDResponse:
-    questionId: 190
-    questionText: 'What is the value stored in percentage?
-
-      <p>int health =
-      25;</p>
-
-      <p>int healthMax = 100;</p>
-
-      <p>float percentage = health
-      / healthMax;</p>'
-    answerA: 0.25f
-    answerB: 0
-    answerC: 2.5f
+    questionId: 210
+    questionText: What is the significance of January 1st, 1970?
+    answerA: Skyrim Release Date on the Magnavox Odyssey
+    answerB: Start of Unix Time
+    answerC: 
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1749772106
+  lastQotdTimestamp: 1755029142
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/ultimateOverview70_6FreeUpdate.png
-    topText: Learn how to use 70 Tools and Features! (Unity 6 Updated)
-    topLink: ultimateunityoverview
-    bottomText: My 10+ Years of C# Knowledge in 1 Course!
-    bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1749772106
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
+    topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ONLY THIS SUMMER!
+    topLink: summer2025bundle
+    bottomText: Get my Code Monkey Toolkit and make games BETTER and FASTER! 50%
+      OFF right now!
+    bottomLink: toolkit
+  lastDynamicHeaderTimestamp: 1755029142
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/toolkit">Please write a Review on the Asset
       Store!</a>
-  websiteLatestMessageTimestamp: 1749772106
+  websiteLatestMessageTimestamp: 1755029142
   websiteLatestVideos:
     videos:
-    - youTubeId: jPXFBmfInRQ
-      title: YOU can CHANGE the FUTURE of Unity!
-    - youTubeId: IPwIpYP3dvg
-      title: 70 Unity Tools and Features in 16 MINUTES!
-    - youTubeId: U5Wolv65yK8
-      title: Dev followed my FREE course, then made $150,000!
-    - youTubeId: NzyU-WuXfk4
-      title: TOP 20 Visual Assets to INSPIRE YOU! (MAY 2025)
-  websiteLatestVideosTimestamp: 1749772106
+    - youTubeId: nGKd4yTP3M8
+      title: Learn Unity 2D Beginner FREE COMPLETE Course
+    - youTubeId: 7xz5Xh4E_B0
+      title: I NEED your HELP!
+    - youTubeId: y-w3vnh_f4Q
+      title: Are Old Tutorials OBSOLETE?
+    - youTubeId: DaKW4kqFlao
+      title: How to LEARN new Skills on HARD MODE!
+  websiteLatestVideosTimestamp: 1755029142

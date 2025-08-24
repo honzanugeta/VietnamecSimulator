@@ -2,7 +2,8 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
+namespace CodeMonkey.Toolkit.ShopSimulatorDemo
+{
 
     /// <summary>
     /// ** GameAssets **
@@ -18,25 +19,31 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
     /// Just make sure the prefab is named exactly "GameAssets" and is placed on a 
     /// folder named exactly "Resources", otherwise it won't work.
     /// </summary>
-    public class GameAssetsShopSimulator : MonoBehaviour {
+    public class GameAssetsShopSimulator : MonoBehaviour
+    {
 
 
         private static GameAssetsShopSimulator instance;
 
 
-        public static GameAssetsShopSimulator Instance {
-            get {
-                if (instance == null) instance = Resources.Load<GameAssetsShopSimulator>(nameof(GameAssetsShopSimulator));
+        public static GameAssetsShopSimulator Instance
+        {
+            get
+            {
+                if (instance == null)
+                    instance = Resources.Load<GameAssetsShopSimulator>(nameof(GameAssetsShopSimulator));
                 return instance;
             }
-            private set {
+            private set
+            {
                 instance = value;
             }
         }
 
 
 
-        private void Awake() {
+        private void Awake()
+        {
             Instance = this;
         }
 
@@ -50,44 +57,60 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
 
 
         [Serializable]
-        public class ObjectTypeBoxData {
+        public class ObjectTypeBoxData
+        {
             public ObjectType objectType;
+            public Transform shelfBoxPrefab;
             public Transform boxPrefab;
             public Sprite sprite;
+            public string objectName;
+            public float sellPrice;
+            public float buyPrice;
+            public int productsCount;
         }
 
         [Serializable]
-        public class InteractActionSprite {
+        public class InteractActionSprite
+        {
             public IInteractable.InteractAction interactAction;
             public Sprite sprite;
         }
 
 
-        public ObjectTypeBoxData GetObjectTypeBoxData(ObjectType objectType) {
-            foreach (ObjectTypeBoxData objectTypeBoxData in objectTypeBoxDataList) {
-                if (objectTypeBoxData.objectType == objectType) {
+        public ObjectTypeBoxData GetObjectTypeBoxData(ObjectType objectType)
+        {
+            foreach (ObjectTypeBoxData objectTypeBoxData in objectTypeBoxDataList)
+            {
+                if (objectTypeBoxData.objectType == objectType)
+                {
                     return objectTypeBoxData;
                 }
             }
             return null;
         }
 
-        public Sprite GetIconSprite(IInteractable.InteractAction interactAction) {
-            foreach (InteractActionSprite interactActionSprite in interactActionSpriteList) {
-                if (interactActionSprite.interactAction == interactAction) {
+        public Sprite GetIconSprite(IInteractable.InteractAction interactAction)
+        {
+            foreach (InteractActionSprite interactActionSprite in interactActionSpriteList)
+            {
+                if (interactActionSprite.interactAction == interactAction)
+                {
                     return interactActionSprite.sprite;
                 }
             }
             return null;
         }
 
-        public string GetPriceString(int price) {
-            int dollars = Mathf.FloorToInt(price / 100f);
-            int cents = (int)(price - (dollars * 100f));
-            return "$" + dollars + "." + cents;
+        public string GetPriceString(float price)
+        {
+            int koruny = Mathf.FloorToInt(price);
+            int halere = Mathf.RoundToInt((price - koruny) * 100);
+            return koruny + "," + halere.ToString("D2") + " Kè";
         }
 
+        public ObjectTypeBoxData[] GetAllObjectTypeBoxDatas()
+        {
+            return objectTypeBoxDataList.ToArray();
+        }
     }
-
-
 }

@@ -7,6 +7,8 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
 
     public class CustomerManager : MonoBehaviour {
 
+        [SerializeField] private int maxCustomerCount = 3;
+
 
         public static CustomerManager Instance { get; private set; }
 
@@ -30,7 +32,13 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
         }
 
         private void TrySpawnCustomer() {
-            int maxCustomerCount = 3;
+        
+            if(!StoreManager.Instance.IsStoreOpen()) {
+                // Store is closed, no customers can spawn
+                return;
+            }
+
+
             if (Customer.GetInstanceList().Count >= maxCustomerCount) {
                 // Too many customers spawned
                 return;
@@ -44,6 +52,10 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
 
         public Vector3 GetCustomerLeavePosition() {
             return customerLeavePositionTransform.position;
+        }
+
+        public static int GetCustomerCount() {
+            return Customer.GetInstanceList().Count;
         }
 
     }

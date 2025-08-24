@@ -17,7 +17,7 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
         public Dictionary<IInteractable.InteractAction, string> GetInteractTextDictionary() {
             if (Checkout.Instance.HasObjectWaitingToScan()) {
                 return new Dictionary<IInteractable.InteractAction, string> {
-                { IInteractable.InteractAction.ScanObject, "Scan Object" }
+                { IInteractable.InteractAction.ScanObject, "Naskenovat objekt" } // Translated
             };
             } else {
                 return null;

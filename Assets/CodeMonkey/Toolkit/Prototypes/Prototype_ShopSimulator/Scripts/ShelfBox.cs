@@ -7,12 +7,9 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
 
         [SerializeField] private ObjectType objectType;
 
-
         public ObjectType GetObjectType() {
             return objectType;
         }
 
-
     }
-
 }

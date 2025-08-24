@@ -5,54 +5,737 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cdbdc15-ca81-46d8-8419-5b20552b70c1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VietnamecSimulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VietnamecSimulator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ACBox.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Breathing Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Jumping.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Walking.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/BaseCharacter.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Body.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/EyeBack.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye_reflection.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyebrows.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyelashes.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyeliner.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Face.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Hair_head.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_EyeReflection.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_hair.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_head.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_2_hair.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_2_head.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_3_hair.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_3_head.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_4_hair.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_4_head.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_5_hair.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_5_head.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_transp_Eye_color4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/mouth_inside.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Shader/DoubleSided.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Shader/UnlitColor.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Body.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeReflection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeWhite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyebrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyelashes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyeliner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face_makeup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_hair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair1_head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair2_hair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair2_head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair3_hair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair3_head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair4_hair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair4_head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair5_hair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair5_head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Mouth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_underwear_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_underwear_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/Demo files/AC.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/Demo files/Anim_Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/Demo files/Mat_Background.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/Demo files/Mesh_Background.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/Demo files/Tex_Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/BaseCharacter/Underwear1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/Casual1/Casual1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/Casual1/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/Casual1/SourceFiles/Material/Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/Casual1/SourceFiles/Mesh/AnimeGirl.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/Casual1/SourceFiles/Texture/Casual1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimeGirls/Casual1/SourceFiles/Texture/Casual1NORMAL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Aluminum 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Aluminum.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Chips.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/DarkWoodBrown 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/DarkWoodBrown.001 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/DarkWoodBrown.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/DarkWoodBrown.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Glow 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Glow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Image 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Image 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Image 3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Image 4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Image.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/LightBrown 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/LightBrown.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/LightOrange 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/LightOrange.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Material 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Material.001 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Material.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Monstert.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Mosteretlemaonade.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Mosteretorange.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Mosteretpink.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Mosteretwhite.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Pink.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/ShelfGridDebugObject.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Skener_20250121 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Skener_20250121.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Skener_202501211.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Skener_20250122.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Skener_20250123 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Skener_20250123.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Skener_20250125 (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Skener_20250125 (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Skener_20250125 (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Skener_20250125 (5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Skener_20250125 (6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/White 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/White.001 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/White.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/White.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/monsteretv2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/ric.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/roCKStar 1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/roCKStar.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/susenka.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Burger_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Burger_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Carton_Burger_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Carton_Burger_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Carton_Fries_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Carton_Fries_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Carton_Nugget_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Carton_Nugget_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Dip_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Dip_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/DrinkLid_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/DrinkLid_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Drink_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Drink_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_CC_Bevel.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_CC_Bevel.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_CC_Light.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_CC_Light.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Color_Lime.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Color_Lime.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Color_Orange.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Color_Orange.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Color_Turq.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Color_Turq.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_FD_Icons.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_FD_Icons.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_FD_Light.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_FD_Light.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_FD_Press.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_FD_Press.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Keypad.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Keypad.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Kiosk_Light.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Kiosk_Light.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Kiosk_Panel.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Kiosk_Panel.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_LampGrate.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_LampGrate.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Leather_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Leather_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Leather_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Leather_02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Leather_03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Leather_03.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Leather_04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Leather_04.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_POS_Display_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_POS_Display_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_POS_Display_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_POS_Display_02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_RoughMetal_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_RoughMetal_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_ServicePlate_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_ServicePlate_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_WallPaper_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_WallPaper_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Wood_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Wood_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Wood_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FFK_Wood_02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FF_Sign_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/FF_Sign_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Fried_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Fried_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Int_FFK_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Int_FFK_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Ketchup_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Ketchup_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/TrayLiner_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/TrayLiner_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Tray_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Materials/Tray_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/Materials/BurgerSign_01_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/Materials/BurgerSign_01_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Color_Black_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Color_Black_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Color_Grey_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Color_Grey_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Concrete_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Concrete_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_03.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glass_04.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glow_White_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Glow_White_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Knob and Key.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Knob and Key.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Leather_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Leather_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Marble_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Marble_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Metal_Brushed_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Metal_Brushed_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Metal_Chrome_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Metal_Chrome_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Metal_Gold_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Metal_Gold_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Mirror.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Mirror.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Plastic_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Plastic_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Porc.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Porc.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Texture_Map_SE.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Texture_Map_SE.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Wood 02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Wood 02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Wood 03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/BA_Wood 03.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/Ext_SS_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/Ext_SS_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/Int_BS_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/Int_BS_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/Int_BS_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets/Int_BS_02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Antique.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Antique.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Brick 02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Brick 02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Brick mute 02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Brick mute 02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Brushed Chrome.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Brushed Chrome.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Building Floor Tile.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Building Floor Tile.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Gold.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Gold.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Wood Floor 01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Wood Floor 01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/Int_RR_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/Int_RR_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_BathroomPaper.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_BathroomPaper.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_Panel_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_Panel_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_Restroom_Sign.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_Restroom_Sign.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_Soap.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_Soap.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_SoapLabel.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom/RR_SoapLabel.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/EditorWindow/ScriptableObjects/CodeMonkeyToolkitSO.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/EditorWindow/ScriptableObjects/CodeMonkeyToolkitSO.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Materials/ContainerBox.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Materials/Shelf.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Materials/Shelf.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Materials/ShelfBox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Materials/ShelfBox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Prefabs/ContainerBox Circle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Prefabs/ContainerBox Rectangle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Prefabs/ContainerBox Triangle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Prefabs/ContainerBox.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Prefabs/Shelf.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Prefabs/Shelf.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Prefabs/ShelfBox Circle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Prefabs/ShelfBox Rectangle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Prefabs/ShelfBox Triangle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Prefabs/ShelfBox.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Prefabs/ShelfHeight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Prefabs/ShelfHeight.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/Checkout.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/Checkout.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/ContainerBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/ContainerBox.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/Customer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/CustomerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/CustomerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/GameAssets/Resources/GameAssetsShopSimulator.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/GameAssets/Resources/GameAssetsShopSimulator.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/GameAssets/Scripts/GameAssetsShopSimulator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/GameAssets/Scripts/GameAssetsShopSimulator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/InteractionSystem/IInteractable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/InteractionSystem/IInteractable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/InteractionSystem/PlayerInteractUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/InteractionSystem/PlayerInteractUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/ObjectType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/ObjectType.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/PlayerShopSimulator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/PlayerShopSimulator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/PriceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/PriceManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/ScanObjectInteractable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/ScanObjectInteractable.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/Shelf.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/Shelf.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/ShelfHeight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/ShelfHeight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemButtonPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemButtonPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Truck.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceTestRunInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/PerformanceTestRunSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-2_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-2_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-3_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-3_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-3_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-3_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1/ReflectionProbe-0.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 2/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 2/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 2/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 2/ReflectionProbe-0.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IInteractable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactableitem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactableitem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LeftDoorFridge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LeftDoorFridge.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OpenCloseVecerka.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OpenCloseVecerka.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RightDoorFridge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RightDoorFridge.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TabletOrderingsystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TabletOrderingsystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/High_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/High_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Low_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Low_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Medium_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Medium_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Ultra_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Ultra_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Very High_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Very High_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Very Low_PipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Very Low_PipelineAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/ShelfBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/ShelfBox.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/ShelfHeightWorldUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/ShelfHeightWorldUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/ShelfInteractable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/ShelfInteractable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/ShopSimulatorUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Prototypes/Prototype_ShopSimulator/Scripts/ShopSimulatorUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/BlockerUI/Scripts/BlockerUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/BlockerUI/Scripts/BlockerUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/BreakTheScreen/Demo/Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/BreakTheScreen/Demo/Blue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/BreakTheScreen/Demo/DarkGrey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/BreakTheScreen/Demo/DarkGrey.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/BreakTheScreen/Demo/Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/BreakTheScreen/Demo/Green.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/BreakTheScreen/Demo/Yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/BreakTheScreen/Demo/Yellow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/BreakTheScreen/Materials/Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/BreakTheScreen/Materials/Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/BreakTheScreen/Materials/BreakTheScreenMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/BreakTheScreen/Materials/BreakTheScreenMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/CameraControllerBasic/Demo/Cube.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/CameraControllerBasic/Demo/Cube.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/CameraControllerBasic/Demo/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/CameraControllerBasic/Demo/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/CameraControllerBasic2D/Demo/Cube.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/CameraControllerBasic2D/Demo/Cube.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/CameraControllerBasic2D/Demo/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/CameraControllerBasic2D/Demo/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/ChatBubble3D/Materials/Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/ChatBubble3D/Materials/Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/ChatBubble3D/Prefabs/Resources/ChatBubble3D.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/ChatBubble3D/Prefabs/Resources/ChatBubble3D.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/DrawMesh/Materials/DrawMeshMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/DrawMesh/Materials/DrawMeshMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/DrawPixels/Materials/Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/DrawPixels/Materials/Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/DrawPixels/Materials/ColorsTextureSingle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/DrawPixels/Materials/ColorsTextureSingle.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/DrawPixels/Materials/DrawPixelsVisual.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/DrawPixels/Materials/DrawPixelsVisual.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/DrawPixels/Materials/LoadImage.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/DrawPixels/Materials/LoadImage.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/FPSCounter/Demo/Yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/FPSCounter/Demo/Yellow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/FirstPersonController/Demo/Material/Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/FirstPersonController/Demo/Material/Blue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/FirstPersonController/Demo/Material/GreyDark.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/FirstPersonController/Demo/Material/GreyDark.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/FirstPersonController/Demo/Material/Yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/FirstPersonController/Demo/Material/Yellow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/FirstPersonController/Scripts/FirstPersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/FirstPersonController/Scripts/FirstPersonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystem/Textures/Grid.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystem/Textures/Grid.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystem/Textures/Grid_Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystem/Textures/Grid_Blue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystem/Textures/Grid_Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystem/Textures/Grid_Red.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystem/Textures/Grid_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystem/Textures/Grid_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystem/Textures/Grid_Yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystem/Textures/Grid_Yellow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystem/Textures/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystem/Textures/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystemHex/Materials/Hexagon.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystemHex/Materials/Hexagon.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystemHex/Materials/HexagonGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystemHex/Materials/HexagonGreen.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystemHex/Materials/HexagonRed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystemHex/Materials/HexagonRed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystemXY/Textures/Grid.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystemXY/Textures/Grid.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystemXY/Textures/Grid_Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystemXY/Textures/Grid_Blue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystemXY/Textures/Grid_Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystemXY/Textures/Grid_Red.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystemXY/Textures/Grid_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystemXY/Textures/Grid_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystemXY/Textures/Grid_Yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystemXY/Textures/Grid_Yellow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystemXY/Textures/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/GridSystemXY/Textures/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/HealthSystem/Demo/Materials/BulletTrail.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/HealthSystem/Demo/Materials/BulletTrail.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/HealthSystem/Demo/Materials/Grey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/HealthSystem/Demo/Materials/Grey.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/InputWindow/Resources/InputWindowUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/InputWindow/Resources/InputWindowUI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/InputWindow/Scripts/InputWindowUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/InputWindow/Scripts/InputWindowUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/InteractionSystemLookAt/Demo/SphereGlow_Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/InteractionSystemLookAt/Demo/SphereGlow_Blue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/InteractionSystemLookAt/Demo/SphereGlow_Yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/InteractionSystemLookAt/Demo/SphereGlow_Yellow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/InteractionSystemProximity/Demo/SphereGlow_Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/InteractionSystemProximity/Demo/SphereGlow_Blue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/InteractionSystemProximity/Demo/SphereGlow_Yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/InteractionSystemProximity/Demo/SphereGlow_Yellow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/KeyDoorSystem/Materials/DoorLockTumblerBlue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/KeyDoorSystem/Materials/DoorLockTumblerBlue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/KeyDoorSystem/Materials/DoorLockTumblerGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/KeyDoorSystem/Materials/DoorLockTumblerGreen.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/KeyDoorSystem/Materials/DoorLockTumblerRed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/KeyDoorSystem/Materials/DoorLockTumblerRed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/KeyDoorSystem/Materials/DoorSingleSide.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/KeyDoorSystem/Materials/DoorSingleSide.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/KeyDoorSystem/Materials/Grey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/KeyDoorSystem/Materials/Grey.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/KeyDoorSystem/Materials/KeyBlue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/KeyDoorSystem/Materials/KeyBlue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/KeyDoorSystem/Materials/KeyGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/KeyDoorSystem/Materials/KeyGreen.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/KeyDoorSystem/Materials/KeyRed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/KeyDoorSystem/Materials/KeyRed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/LookAtCamera/Demo/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/LookAtCamera/Demo/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/LookAtCamera/Demo/Player.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/LookAtCamera/Demo/Player.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/MousePosition/Demo/Cube.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/MousePosition/Demo/Cube.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/MousePosition/Demo/Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/MousePosition/Demo/Green.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/MousePosition/Demo/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/MousePosition/Demo/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/MousePosition/Demo/Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/MousePosition/Demo/Red.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/MousePosition/Demo/Yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/MousePosition/Demo/Yellow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/SaveFileScreenshot/Demo/Materials/Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/SaveFileScreenshot/Demo/Materials/Blue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/SaveFileScreenshot/Demo/Materials/Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/SaveFileScreenshot/Demo/Materials/Green.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/SaveFileScreenshot/Demo/Materials/White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/SaveFileScreenshot/Demo/Materials/White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/TextPopup/Scripts/TextPopupUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/TextPopup/Scripts/TextPopupUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/TopDownCharacterController3D/Demo/Material/Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/TopDownCharacterController3D/Demo/Material/Blue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/TopDownCharacterController3D/Demo/Material/GreyDark.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/TopDownCharacterController3D/Demo/Material/GreyDark.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/TopDownCharacterController3D/Demo/Material/Yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/TopDownCharacterController3D/Demo/Material/Yellow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/ZoomShader/Materials/ZoomShader.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeMonkey/Toolkit/Tools/ZoomShader/Materials/ZoomShader.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastSky/Materials/RealisticSky.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FastSky/Materials/RealisticSky.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FastSky/Materials/StylisedSky.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FastSky/Materials/StylisedSky.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/Metal_black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/Metal_black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/Metal_grey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/Metal_grey.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/glass.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/light.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/light.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/metal_cheese.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/metal_cheese.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/metal_garage.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/metal_garage.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/plastic_black_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fresh_Raystore/Mod/Materials/plastic_black_02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fresh_Raystore/Prefabs/raystore_fresh.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fresh_Raystore/Prefabs/raystore_fresh.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/AudioSettings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Balance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Bez názvu-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/ChooseUrLife.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/ComingSoon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/GraphicsSettings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/MainM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/MonsterEnergy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Pink Monster.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Restaurace_life.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/SaveSettings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Untitled-1d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Vecerka_Life.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/X.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/bbackk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/bestway-beach-ball_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/insufficientfunds (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/play1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/quit1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/settings1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/settings_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Items/MonsterIdk.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Items/MonsterLemonade.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Items/MonsterOriginal 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Items/MonsterPink.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/AlphBumps.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/AlphBumps.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/AlphaReadyMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/AlphaReadyMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/DirectionalArrowMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/DirectionalArrowMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/Futoro_PlanetMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/Futoro_PlanetMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/Graph.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/Graph.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/GridLines.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/GridLines.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/LineGlowMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/LineGlowMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/Mock2d.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/Mock2d.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/PointMark.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/PointMark.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrackCar.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/TrackCar.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/WalkingStick.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Material/WalkingStick.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/LMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/LMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/LineMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/LineMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/Material.001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/Material.001.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/Material_001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/Material_001.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/No Name.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/No Name.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarAlphaBlue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarAlphaBlue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarBlue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarBlue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarHat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarHat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarSpace.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SimpleAvatarSpace.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SubTitleText.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/SubTitleText.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/eanTween.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeanTween/Examples/Models/Materials/eanTween.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Documentation/BrosDocumentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Bro_Tex.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_03.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_04.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_05.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_06.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_07.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_08.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_09.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_10.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_11.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_12.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_13.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_14.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_15.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_16.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_17.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Face_18.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Hair.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Materials/Studio.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Models/Bro.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Prefabs/BroModel.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Scenes/Bro_Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Scenes/Bro_Demo_Profiles/Bro_PostProcess Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/ColorPalet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/Face_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/Face_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/Face_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/Face_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/Face_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/Face_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/Face_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/Face_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/Face_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/Face_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/Face_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/Face_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/Face_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/Face_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/Face_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/Face_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/Face_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/Textures/Face_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Bros/white.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Materials/Metal.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Materials/Wood.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Meshes/MetalRack_Pillar.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Meshes/MetalRack_Pillar_Half.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Meshes/MetalRack_Shelf_Board.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Meshes/MetalRack_Shelf_Board_Half.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Meshes/MetalRack_Shelf_Wire.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Meshes/MetalRack_Shelf_Wire_Half.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Meshes/MetalRack_Sidebar.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Meshes/MetalRack_Sidebar_Half.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Prefabs/BoardShelf A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Prefabs/BoardShelf B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Prefabs/BoardShelf C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Prefabs/BoardShelf D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Prefabs/MetalRack_Pillar.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Prefabs/MetalRack_Pillar_Half.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Prefabs/MetalRack_Shelf_Board.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Prefabs/MetalRack_Shelf_Board_Half.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Prefabs/MetalRack_Shelf_Wire.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Prefabs/MetalRack_Shelf_Wire_Half.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Prefabs/MetalRack_Sidebar.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Prefabs/MetalRack_Sidebar_Half.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Prefabs/WireShelf A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Prefabs/WireShelf B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Prefabs/WireShelf C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Prefabs/WireShelf D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowPolyMetalRack/Scenes/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Aluminum.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BasicBila 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/BasicBila.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Black 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Black 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Blinkr 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Blinkr.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Cab 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Cab.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/DarkWoodBrown.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/DarkWoodBrown.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Glow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Image.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Kola 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Kola.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Kov 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Kov.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Light.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/LightBrown.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/LightOrange.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Material.001 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Material.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Red 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Trabsoarent.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/VecerkLighting.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/White 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/White.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/White.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Zrcatka 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Zrcatka.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/brownish.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/floor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/plywood.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/plywood_diff_4k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/plywood_nor_gl_4k.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/plywood_rough_4k.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/white 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/95ece9da1221570af95f7c721d11303f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Black 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Green 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemButtonPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Material 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Material 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Material 3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Monster-Energy-Logo-Transparent-PNG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MonsterIdk.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MonsterLemonade.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MonsterLewus 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MonsterLewus.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MonsterOrange.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MonsterOriginal 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MonsterOriginal.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MonsterPink 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MonsterPink.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Price.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rockstar.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Table.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tiger.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trabsoarent.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Truck (1).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/White.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WireShelf A Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WireShelf Variant 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WireShelf Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/[CITYPNG.COM]HD Monster Logo Sign Transparent PNG - 3000x3000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/cctvkamera.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/floor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/isk.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/monster-pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/monsterblue.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/monsteroriginal.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/monsterpink.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/monsterwhite.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/origoVecerka (1).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/restaurace (1).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/restaurace.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/tablet.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/tablet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/tv.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/white 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/yellow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RenderTextures/CCTVmaterial1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RenderTextures/CCTVmaterial1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RenderTextures/CCTVmaterial2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RenderTextures/CCTVmaterial2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RenderTextures/CCTVmaterial3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RenderTextures/CCTVmaterial3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RenderTextures/CCTVmaterial4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RenderTextures/CCTVmaterial4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LightingRestaurant.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Scene/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Scene/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Old Main.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-0_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-0_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-1_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-1_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-2_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-2_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-3_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/Lightmap-3_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/Lightmap-0_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/Lightmap-0_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/Lightmap-1_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/Lightmap-1_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/Lightmap-2_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/Lightmap-2_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/NavMesh-Navmesh Surface 1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/NavMesh-Navmesh Surface 2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/NavMesh-Navmesh Surface.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 2/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BalanceDisplay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CardoorOpen.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Checkoutscript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cube.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactableitem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventoryslot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventoryui.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ItemOrder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KonteinerBox.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LeftDoorFridge.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelMENU.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LogMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoneyManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Objekttyp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OpenCloseFront.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OpenCloseVecerka.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimationscntrolller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerInteractSingleUIscript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playerintreatui.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Playinteerractuiscript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PrefabSwooshAnimation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RightDoorFridge.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShelfGridDebugObjectscript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shelves/ShelfHeightScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shelves/ShelfScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shelves/ShelveHeightUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shelves/ShelveInteractableScipt.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shelves/VcerkaSimulaotrScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnZoneGizmo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TabletOrderingsystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VecerkaAsseTSimulaotr.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VecerkaSimulaotrUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Zakaznik.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Zakaznikmanazer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/cenamaanzer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/interakce/IInteractable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/interakce/playerlookat.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/interakce/playeruiscript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/shelvebox.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/Environment/Art/Materials/Blue_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StarterAssets/Environment/Art/Materials/Blue_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/Environment/Art/Materials/GridBlue_01_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StarterAssets/Environment/Art/Materials/GridBlue_01_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - URP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - URP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - URP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - URP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Logo - URP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Logo - URP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - URP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - URP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blender/susenka.blend" beforeDir="false" afterPath="$PROJECT_DIR$/Blender/susenka.blend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blender/susenka.blend1" beforeDir="false" afterPath="$PROJECT_DIR$/Blender/susenka.blend1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImagesBlender/Skener_20250125 (2).png" beforeDir="false" afterPath="$PROJECT_DIR$/ImagesBlender/Skener_20250125 (2).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/Chips.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/Chips.blend1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/Chips.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/Images/2020-08-16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/Images/floortile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/Images/stolethismffromaytvideolol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/Monstert.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/Mosteretlemaonade.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/Mosteretorange.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/Mosteretpink.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/Mosteretwhite.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/Plechovka.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/Plechovka.blend1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/Polevka.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/Polevka.blend1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/Vecerka.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/Vecerka.blend1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/cctvkamera.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/cctvkamera.blend1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/cctvkamera.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/monsterblue.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/monsteretv2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/monsteroriginal.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/monsterpink.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/monsterwhite.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/origoVecerka (1).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/origoVecerka.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/origoVecerka.blend1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/origoVecerka.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/pokladna.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/pokladna.blend1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/restaurace (1).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/restaurace.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/restaurace.blend1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/restaurace.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/ric.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/roCKStar.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/susenka.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/susenka.blend1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/susenka.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/tablet.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/tablet.blend1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/tablet.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/tv.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/tv.blend1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/tv.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/zavitky.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blender/zavitky.blend1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Bez názvu-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Untitled-1d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagesBlender/360_F_106423986_UOvQIpPgjrQBfer38QbqO55hQPl0uJHE.jpgv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagesBlender/Skener_20250121.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagesBlender/Skener_202501211.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagesBlender/Skener_20250122.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagesBlender/Skener_20250123.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagesBlender/Skener_20250125 (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagesBlender/Skener_20250125 (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagesBlender/Skener_20250125 (4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagesBlender/Skener_20250125 (5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagesBlender/Skener_20250125 (6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagesBlender/Skener_20250125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagesBlender/Skener_20250127.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagesBlender/food_0012_1k_b2U7AJ/food_0012_ao_1k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagesBlender/food_0012_1k_b2U7AJ/food_0012_color_1k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagesBlender/food_0012_1k_b2U7AJ/food_0012_height_1k.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagesBlender/food_0012_1k_b2U7AJ/food_0012_normal_directx_1k.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagesBlender/food_0012_1k_b2U7AJ/food_0012_normal_opengl_1k.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImagesBlender/food_0012_1k_b2U7AJ/food_0012_roughness_1k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/MonoBleedingEdge/etc/mono/2.0/machine.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/MonoBleedingEdge/etc/mono/2.0/settings.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/MonoBleedingEdge/etc/mono/2.0/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/MonoBleedingEdge/etc/mono/4.0/machine.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/MonoBleedingEdge/etc/mono/4.0/settings.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/MonoBleedingEdge/etc/mono/4.0/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/MonoBleedingEdge/etc/mono/4.5/machine.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/MonoBleedingEdge/etc/mono/4.5/settings.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/MonoBleedingEdge/etc/mono/4.5/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/MonoBleedingEdge/etc/mono/browscap.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/MonoBleedingEdge/etc/mono/config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/MonoBleedingEdge/etc/mono/mconfig/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_BurstDebugInformation_DoNotShip/Data/Plugins/x86_64/lib_burst_generated.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/Resources/unity default resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/Resources/unity_builtin_extra" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/RuntimeInitializeOnLoads.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/ScriptingAssemblies.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/app.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/boot.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/globalgamemanagers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/globalgamemanagers.assets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/globalgamemanagers.assets.resS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/level0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/level0.resS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/level1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/level1.resS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/level2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/level2.resS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/resources.assets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/resources.assets.resS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/sharedassets0.assets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/sharedassets0.assets.resS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/sharedassets1.assets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/sharedassets1.assets.resS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestHra/VietnamecSimulator_Data/sharedassets2.assets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mono_crash.0.0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mono_crash.137d23b86c.0.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,6 +902,9 @@
       <workItem from="1749417756159" duration="21844000" />
       <workItem from="1749736973973" duration="11501000" />
       <workItem from="1749771777988" duration="8348000" />
+      <workItem from="1754123643995" duration="8764000" />
+      <workItem from="1755026575930" duration="1125000" />
+      <workItem from="1756072047874" duration="3000" />
     </task>
     <servers />
   </component>

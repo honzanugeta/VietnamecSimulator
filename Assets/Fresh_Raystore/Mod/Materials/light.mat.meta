@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 712cf1c516f21db4d85fe102a57595fd
+timeCreated: 1464340896
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 267101
+  packageName: Fresh shelving
+  packageVersion: 1.0
+  assetPath: Assets/Fresh_Raystore/Mod/Materials/light.mat
+  uploadId: 617976

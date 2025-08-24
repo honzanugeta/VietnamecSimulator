@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 594456c76fa0ba3488ee0de0cefa2153
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 213045
+  packageName: Low Poly Metal Rack
+  packageVersion: 1.0.1
+  assetPath: Assets/LowPolyMetalRack/Prefabs/MetalRack_Shelf_Wire_Half.prefab
+  uploadId: 481925

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f4150ef658b855d4a8f725e20efdde87
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 213045
+  packageName: Low Poly Metal Rack
+  packageVersion: 1.0.1
+  assetPath: Assets/LowPolyMetalRack/Prefabs/MetalRack_Sidebar_Half.prefab
+  uploadId: 481925

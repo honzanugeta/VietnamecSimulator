@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9e6bc462a0a417c4485dbf49e66f6977
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 267101
+  packageName: Fresh shelving
+  packageVersion: 1.0
+  assetPath: Assets/Fresh_Raystore/Scenes/DemoScene/LightingData.asset
+  uploadId: 617976

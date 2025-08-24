@@ -34,6 +34,10 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
                     if (interactable.CanDoInteractAction(IInteractable.InteractAction.ScanObject)) {
                         interactable.Interact(IInteractable.InteractAction.ScanObject, transform);
                     }
+                    if (interactable.CanDoInteractAction(IInteractable.InteractAction.TrashObject)) {
+                        interactable.Interact(IInteractable.InteractAction.TrashObject, transform);
+                    }
+                   
                 }
             }
             if (Input.GetMouseButtonDown(1)) {
@@ -49,6 +53,16 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
                     if (interactable != null) {
                         if (interactable.CanDoInteractAction(IInteractable.InteractAction.PickUpBox)) {
                             interactable.Interact(IInteractable.InteractAction.PickUpBox, transform);
+                        }
+
+                        if (interactable.CanDoInteractAction(IInteractable.InteractAction.InteractWithComputer))
+                        {
+                            interactable.Interact(IInteractable.InteractAction.InteractWithComputer, transform);
+                        }
+
+                        if (interactable.CanDoInteractAction(IInteractable.InteractAction.ToggleRadio))
+                        {
+                            interactable.Interact(IInteractable.InteractAction.ToggleRadio, transform);
                         }
                     }
                 } else {

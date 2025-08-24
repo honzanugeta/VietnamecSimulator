@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 448480d381d0acc4bb33c2b37e0c1190
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 213045
+  packageName: Low Poly Metal Rack
+  packageVersion: 1.0.1
+  assetPath: Assets/LowPolyMetalRack/Prefabs/MetalRack_Pillar_Half.prefab
+  uploadId: 481925

@@ -14,15 +14,24 @@ namespace CodeMonkey.Toolkit.TBlockerUI {
         private static BlockerUI instance;
 
 
-        private static void Init() {
-            if (instance == null) {
-                Canvas canvas = GameObject.FindFirstObjectByType<Canvas>();
-                if (canvas == null) {
-                    Debug.LogError("No Canvas was found in Scene! " + nameof(BlockerUI) + " needs a Canvas to work.");
+        private static void Init()
+        {
+            if (instance == null)
+            {
+                Canvas canvas = null;
+                GameObject canvasObj = GameObject.FindGameObjectWithTag("MainCanvas");
+                if (canvasObj != null)
+                {
+                    canvas = canvasObj.GetComponent<Canvas>();
+                }
+                if (canvas == null)
+                {
+                    Debug.LogError("No Canvas with tag 'MainCanvas' was found in Scene! " + nameof(BlockerUI) + " needs a Canvas to work.");
                     return;
                 }
                 BlockerUI blockerUI = Resources.Load<BlockerUI>(nameof(BlockerUI));
-                if (blockerUI == null) {
+                if (blockerUI == null)
+                {
                     Debug.LogError("Could not find " + nameof(BlockerUI) + " in Resources! Is the prefab inside a folder named exactly 'Resources'? And is the prefab named exactly '" + nameof(BlockerUI) + "'?");
                     return;
                 }

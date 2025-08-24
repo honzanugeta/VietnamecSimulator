@@ -61,7 +61,7 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
                 playerInteractSingleUITransform.gameObject.SetActive(true);
 
                 PlayerInteractSingleUI playerInteractSingleUI = playerInteractSingleUITransform.GetComponent<PlayerInteractSingleUI>();
-                playerInteractSingleUI.Setup(IInteractable.InteractAction.DropBox, "Drop Box");
+                playerInteractSingleUI.Setup(IInteractable.InteractAction.DropBox, "Položit krabici"); // Translated
             }
         }
 

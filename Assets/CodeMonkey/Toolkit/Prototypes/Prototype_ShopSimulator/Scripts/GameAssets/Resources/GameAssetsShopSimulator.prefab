@@ -48,26 +48,60 @@ MonoBehaviour:
   codeMonkeySpritePrefab: {fileID: 0}
   objectTypeBoxDataList:
   - objectType: 1
-    boxPrefab: {fileID: 889490523243822914, guid: d151850f5c2340e4d9ffc41884fea4e6,
-      type: 3}
-    sprite: {fileID: 21300000, guid: 67147936a27e4c54392404a3d8d75a92, type: 3}
+    shelfBoxPrefab: {fileID: 4458332583815005091, guid: 2fd6db1020d8fa040b3239d5a29faebb, type: 3}
+    boxPrefab: {fileID: 2768632399797115863, guid: 2a98e507d0abb604791f9bbb9529439b, type: 3}
+    sprite: {fileID: 21300000, guid: 99c2e39b399e6bb45a060229616c7b50, type: 3}
+    objectName: "B\xEDl\xFD Monst\u0159\xEDk"
+    sellPrice: 30
+    buyPrice: 25
+    productsCount: 12
   - objectType: 2
-    boxPrefab: {fileID: 7150440816970220453, guid: ba706522459fcfe488efefb8a707646a,
-      type: 3}
-    sprite: {fileID: 21300000, guid: bddee477c7abd9447af41028c8575d08, type: 3}
+    shelfBoxPrefab: {fileID: 1957771065142946065, guid: 01d09f4979971ca4da4836c7fae2b14f, type: 3}
+    boxPrefab: {fileID: 2711539651224702217, guid: dce4497af59607740b56d8745b0304f9, type: 3}
+    sprite: {fileID: 21300000, guid: a50649744e26d584fa7a972172dc3c0e, type: 3}
+    objectName: "\u010Cern\xFD Monst\u0159\xEDk"
+    sellPrice: 30
+    buyPrice: 25
+    productsCount: 12
   - objectType: 3
-    boxPrefab: {fileID: 1816512407412742456, guid: 70a76290619da1f42b7a1e7697ac2e03,
-      type: 3}
-    sprite: {fileID: 21300000, guid: 87aaff3025352504292bec933afc1493, type: 3}
+    shelfBoxPrefab: {fileID: 9170130234247613304, guid: 8940cd021cd95f64ba0893fbcce1d8c8, type: 3}
+    boxPrefab: {fileID: 6060187335502976361, guid: 9494597176cece24a9638f151e1e421f, type: 3}
+    sprite: {fileID: 21300000, guid: c8e48eac523cf8f40872654bfb911703, type: 3}
+    objectName: "Zelen\xFD Monst\u0159\xEDk"
+    sellPrice: 30
+    buyPrice: 25
+    productsCount: 12
+  - objectType: 4
+    shelfBoxPrefab: {fileID: 7768854938205963590, guid: 110fad0571e4edf408bd87f6fb4df014, type: 3}
+    boxPrefab: {fileID: 1361619668909552614, guid: 66024cc5fded8fd4c83c53dfcb039687, type: 3}
+    sprite: {fileID: 21300000, guid: 293d794d0bb7b044a94b4c850e7f43f9, type: 3}
+    objectName: uGurt
+    sellPrice: 8.9
+    buyPrice: 6
+    productsCount: 35
+  - objectType: 5
+    shelfBoxPrefab: {fileID: 516130599491080249, guid: 510cfa30dc66844419f83d0ddc6d0703, type: 3}
+    boxPrefab: {fileID: 2720885035511594489, guid: 8965ec793c4ad3b449fd6215b82ce950, type: 3}
+    sprite: {fileID: 21300000, guid: 264f888e970db2444bea520cbc66131c, type: 3}
+    objectName: "Bamb\u016Frky"
+    sellPrice: 32
+    buyPrice: 28
+    productsCount: 8
+  - objectType: 6
+    shelfBoxPrefab: {fileID: 6629840809575538229, guid: 6c8308576a8b7c341a6ed24c6974e8eb, type: 3}
+    boxPrefab: {fileID: 8761560552611789454, guid: f05cdb460b1466448a20ba037a31c8dc, type: 3}
+    sprite: {fileID: 21300000, guid: 90ec1d4e620a45f4e9438cedb7bb61cd, type: 3}
+    objectName: Snezenka
+    sellPrice: 9.5
+    buyPrice: 7
+    productsCount: 16
   interactActionSpriteList:
   - interactAction: 0
     sprite: {fileID: 0}
   - interactAction: 1
-    sprite: {fileID: -8168464661308189393, guid: 73a0407c17acb3f47ae6dbe3580f8c5d,
-      type: 3}
+    sprite: {fileID: -8168464661308189393, guid: 73a0407c17acb3f47ae6dbe3580f8c5d, type: 3}
   - interactAction: 2
-    sprite: {fileID: -982600291374398783, guid: f4a1104e34dbd5f4ca18c105c864bdf2,
-      type: 3}
+    sprite: {fileID: -982600291374398783, guid: f4a1104e34dbd5f4ca18c105c864bdf2, type: 3}
   - interactAction: 3
     sprite: {fileID: 21300000, guid: 18815c34f618e5f4abf508c36554070f, type: 3}
   - interactAction: 4
@@ -75,5 +109,10 @@ MonoBehaviour:
   - interactAction: 5
     sprite: {fileID: 21300000, guid: 41f2baae58cc1bc42aa894f9a1bc0fba, type: 3}
   - interactAction: 6
-    sprite: {fileID: -8168464661308189393, guid: 73a0407c17acb3f47ae6dbe3580f8c5d,
-      type: 3}
+    sprite: {fileID: -8168464661308189393, guid: 73a0407c17acb3f47ae6dbe3580f8c5d, type: 3}
+  - interactAction: 7
+    sprite: {fileID: 21300000, guid: 18815c34f618e5f4abf508c36554070f, type: 3}
+  - interactAction: 8
+    sprite: {fileID: -8168464661308189393, guid: 73a0407c17acb3f47ae6dbe3580f8c5d, type: 3}
+  - interactAction: 9
+    sprite: {fileID: 21300000, guid: 18815c34f618e5f4abf508c36554070f, type: 3}

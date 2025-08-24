@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0199cc42e484245408a403d5b12edf80
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 267101
+  packageName: Fresh shelving
+  packageVersion: 1.0
+  assetPath: Assets/Fresh_Raystore/Scenes/DemoScene_volume.asset
+  uploadId: 617976

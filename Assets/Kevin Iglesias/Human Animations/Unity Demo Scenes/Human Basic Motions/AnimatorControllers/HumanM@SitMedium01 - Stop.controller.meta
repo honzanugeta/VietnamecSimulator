@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 63edc3f885505cb4cb0b173ea423ec40
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 157744
+  packageName: Human Basic Motions
+  packageVersion: 2.4
+  assetPath: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Basic
+    Motions/AnimatorControllers/HumanM@SitMedium01 - Stop.controller
+  uploadId: 762144

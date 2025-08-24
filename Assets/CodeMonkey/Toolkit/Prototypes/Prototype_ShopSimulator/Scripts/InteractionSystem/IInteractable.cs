@@ -13,6 +13,9 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
             DropBox,
             ChangePrice,
             ScanObject,
+            InteractWithComputer,
+            TrashObject,
+            ToggleRadio
         }
 
         public bool CanDoInteractAction(InteractAction interactAction);

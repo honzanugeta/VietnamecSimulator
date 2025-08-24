@@ -4,7 +4,8 @@ using TMPro;
 using UnityEngine.UI;
 using CodeMonkey.Toolkit.TFunctionTimer;
 
-namespace CodeMonkey.Toolkit.TInputWindow {
+namespace CodeMonkey.Toolkit.TInputWindow
+{
 
     /// <summary>
     /// ** Input Window **
@@ -21,7 +22,8 @@ namespace CodeMonkey.Toolkit.TInputWindow {
     /// or it will automatically spawn when you first use the static function.
     /// Just make sure the prefab exists inside a Resources folder and is named exactly InputWindowUI
     /// </summary>
-    public class InputWindowUI : MonoBehaviour {
+    public class InputWindowUI : MonoBehaviour
+    {
 
 
         public const string ALPHABET_LOWER_CASE = "abcdefghijklmnopqrstuvxywz";
@@ -32,15 +34,20 @@ namespace CodeMonkey.Toolkit.TInputWindow {
         private static InputWindowUI instance;
 
 
-        private static void Init() {
-            if (instance == null) {
-                Canvas canvas = GameObject.FindFirstObjectByType<Canvas>();
-                if (canvas == null) {
-                    Debug.LogError("No Canvas was found in Scene! InputWindowUI needs a Canvas to work.");
+        private static void Init()
+        {
+            if (instance == null)
+            {
+                GameObject canvasObj = GameObject.FindGameObjectWithTag("MainCanvas");
+                Canvas canvas = canvasObj != null ? canvasObj.GetComponent<Canvas>() : null;
+                if (canvas == null)
+                {
+                    Debug.LogError("No Canvas with tag 'MainCanvas' was found in Scene! InputWindowUI needs a Canvas to work.");
                     return;
                 }
                 InputWindowUI inputWindowUI = Resources.Load<InputWindowUI>(nameof(InputWindowUI));
-                if (inputWindowUI == null) {
+                if (inputWindowUI == null)
+                {
                     Debug.LogError("Could not find InputWindowUI in Resources! Is the prefab inside a folder named exactly 'Resources'? And is the prefab named exactly '" + nameof(InputWindowUI) + "'?");
                     return;
                 }
@@ -61,102 +68,127 @@ namespace CodeMonkey.Toolkit.TInputWindow {
         private Action cancelClickAction;
 
 
-        private void Awake() {
+        private void Awake()
+        {
             instance = this;
 
-            okBtn.onClick.AddListener(() => {
-                okClickAction?.Invoke(); 
+            okBtn.onClick.AddListener(() =>
+            {
+                okClickAction?.Invoke();
             });
-            cancelBtn.onClick.AddListener(() => {
+            cancelBtn.onClick.AddListener(() =>
+            {
                 cancelClickAction?.Invoke();
             });
 
             Hide();
         }
 
-        private void Update() {
-            if (listenToKeyInputs) {
-                if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter)) {
+        private void Update()
+        {
+            if (listenToKeyInputs)
+            {
+                if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+                {
                     okClickAction?.Invoke();
                 }
-                if (Input.GetKeyDown(KeyCode.Escape)) {
+                if (Input.GetKeyDown(KeyCode.Escape))
+                {
                     cancelClickAction?.Invoke();
                 }
             }
         }
 
-        private void Show_Instance(string titleString, string inputString, string validCharacters, int characterLimit, Action onCancel, Action<string> onOk) {
+        private void Show_Instance(string titleString, string inputString, string validCharacters, int characterLimit, Action onCancel, Action<string> onOk)
+        {
             gameObject.SetActive(true);
             transform.SetAsLastSibling();
 
             titleText.text = titleString;
 
             inputField.characterLimit = characterLimit;
-            inputField.onValidateInput = (string text, int charIndex, char addedChar) => {
+            inputField.onValidateInput = (string text, int charIndex, char addedChar) =>
+            {
                 return ValidateChar(validCharacters, addedChar);
             };
 
             inputField.text = inputString;
             inputField.Select();
             inputField.ActivateInputField();
-            FunctionTimer.Create(() => {
+            FunctionTimer.Create(() =>
+            {
                 // Select Input on next frame, sometimes selecting on same frame as setting it active doesn't work
                 inputField.Select();
                 inputField.ActivateInputField();
             }, .01f);
 
-            okClickAction = () => {
+            okClickAction = () =>
+            {
                 Hide();
                 onOk(inputField.text);
             };
 
-            cancelClickAction = () => {
+            cancelClickAction = () =>
+            {
                 Hide();
                 onCancel();
             };
         }
 
-        private void Hide() {
+        private void Hide()
+        {
             gameObject.SetActive(false);
         }
 
-        private char ValidateChar(string validCharacters, char addedChar) {
-            if (validCharacters.IndexOf(addedChar) != -1) {
+        private char ValidateChar(string validCharacters, char addedChar)
+        {
+            if (validCharacters.IndexOf(addedChar) != -1)
+            {
                 // Valid
                 return addedChar;
-            } else {
+            }
+            else
+            {
                 // Invalid
                 return '\0';
             }
         }
 
-        private bool IsVisible_Instance() {
+        private bool IsVisible_Instance()
+        {
             return gameObject.activeSelf;
         }
 
 
 
 
-        public static void Show(string titleString, string inputString, string validCharacters, int characterLimit, Action onCancel, Action<string> onOk) {
+        public static void Show(string titleString, string inputString, string validCharacters, int characterLimit, Action onCancel, Action<string> onOk)
+        {
             Init();
             instance.Show_Instance(titleString, inputString, validCharacters, characterLimit, onCancel, onOk);
         }
 
-        public static void Show(string titleString, int defaultInt, Action onCancel, Action<int> onOk) {
+        public static void Show(string titleString, int defaultInt, Action onCancel, Action<int> onOk)
+        {
             Init();
             instance.Show_Instance(titleString, defaultInt.ToString(), "0123456789-+", 20, onCancel,
-                (string inputText) => {
+                (string inputText) =>
+                {
                     // Try to Parse input string
-                    if (int.TryParse(inputText, out int _i)) {
+                    if (int.TryParse(inputText, out int _i))
+                    {
                         onOk(_i);
-                    } else {
+                    }
+                    else
+                    {
                         onOk(defaultInt);
                     }
                 }
             );
         }
 
-        public static bool IsVisible() {
+        public static bool IsVisible()
+        {
             Init();
             return instance.IsVisible_Instance();
         }

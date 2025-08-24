@@ -2,12 +2,15 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
+namespace CodeMonkey.Toolkit.ShopSimulatorDemo
+{
 
-    public class ContainerBox : MonoBehaviour, IInteractable {
+    public class ContainerBox : MonoBehaviour, IInteractable
+    {
 
 
-        public enum State {
+        public enum State
+        {
             Ground,
             PickedUp
         }
@@ -15,71 +18,94 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
 
         [SerializeField] private ObjectType objectType;
         [SerializeField] private TextMeshPro amountTextMesh;
+        private int amount = 1;
 
 
         private State state = State.Ground;
         private BoxCollider boxCollider;
-        private int amount = 15;
 
 
-        private void Awake() {
+
+        private void Awake()
+        {
             boxCollider = GetComponent<BoxCollider>();
             amountTextMesh.text = amount.ToString();
         }
 
-        public Dictionary<IInteractable.InteractAction, string> GetInteractTextDictionary() {
-            return new Dictionary<IInteractable.InteractAction, string>{
-                { IInteractable.InteractAction.PickUpBox, "Pick up" }
+        public Dictionary<IInteractable.InteractAction, string> GetInteractTextDictionary()
+        {
+            return new Dictionary<IInteractable.InteractAction, string>
+            {
+                { IInteractable.InteractAction.PickUpBox, "Zvednout" }, // Translated 
             };
         }
 
-        public ObjectType GetObjectType() {
+        public ObjectType GetObjectType()
+        {
             return objectType;
         }
 
-        public Transform GetTransform() {
+        public Transform GetTransform()
+        {
             return transform;
         }
 
-        public bool CanDoInteractAction(IInteractable.InteractAction interactAction) {
+        public bool CanDoInteractAction(IInteractable.InteractAction interactAction)
+        {
             return
                 interactAction == IInteractable.InteractAction.PickUpBox ||
                 interactAction == IInteractable.InteractAction.DropBox;
         }
 
-        public void Interact(IInteractable.InteractAction interactAction, Transform interactorTransform) {
-            if (!PlayerShopSimulator.Instance.IsCarryingContainerBox()) {
+        public void Interact(IInteractable.InteractAction interactAction, Transform interactorTransform)
+        {
+            if (!PlayerShopSimulator.Instance.IsCarryingContainerBox())
+            {
                 // Not yet carrying a box, can carry
                 PlayerShopSimulator.Instance.SetCarryingContainerBox(this);
             }
         }
 
-        public bool CanAddAmount(ObjectType objectType) {
-            if (GetObjectType() == objectType) {
+        public bool CanAddAmount(ObjectType objectType)
+        {
+            if (GetObjectType() == objectType)
+            {
                 return true;
-            } else {
+            }
+            else
+            {
                 return false;
             }
         }
 
-        public void AddAmount() {
+        public void AddAmount()
+        {
             amount++;
             amountTextMesh.text = amount.ToString();
         }
 
-        public bool CanRemoveAmount() {
+        public bool CanRemoveAmount()
+        {
             return amount > 0;
         }
 
-        public void RemoveAmount() {
+        public void RemoveAmount()
+        {
             amount--;
             amountTextMesh.text = amount.ToString();
         }
 
-        public void SetState(State state) {
+        public int GetAmmout()
+        {
+            return amount;
+        }
+
+        public void SetState(State state)
+        {
             this.state = state;
 
-            switch (state) {
+            switch (state)
+            {
                 case State.Ground:
                     boxCollider.enabled = true;
                     break;
@@ -89,6 +115,11 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
             }
         }
 
+        public void SetAmmount(int amount)
+        {
+            this.amount = amount;
+            amountTextMesh.text = amount.ToString();
+        }
     }
 
 }

@@ -35,7 +35,7 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
             }
         }
 
-        public void Show(ObjectType objectType, int price) {
+        public void Show(ObjectType objectType, float price) {
             iconSpriteRenderer.enabled = true;
             GameAssetsShopSimulator.ObjectTypeBoxData objectTypeBoxData = GameAssetsShopSimulator.Instance.GetObjectTypeBoxData(objectType);
             iconSpriteRenderer.sprite = objectTypeBoxData.sprite;

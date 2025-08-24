@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace CodeMonkey.Toolkit.TFirstPersonController {
@@ -16,22 +17,48 @@ namespace CodeMonkey.Toolkit.TFirstPersonController {
         [SerializeField] private float sensitivity = 1f;
         [SerializeField] private float moveSpeed = 10f;
 
+        [SerializeField] private Computer computer;
+
 
         private CharacterController characterController;
         private float cameraVerticalAngle;
         private float verticalMovement;
+
+        private bool canMove = true;
 
 
         private void Awake() {
             characterController = GetComponent<CharacterController>();
             LockMouse();
 
+            computer.OnInteract += HandleComputerInteract;
+
             if (playerCamera == null) {
                 Debug.LogError("PlayerCamera field needs to be assigned! Drag the camera reference which should be a child object of the Player object, check the Prefab");
             }
         }
 
+        private void HandleComputerInteract(bool newCanMove)
+        {
+            canMove = !newCanMove;
+
+            if (canMove)
+            {
+                LockMouse();
+            }
+            else
+            {
+                UnlockMouse();
+            }
+        }
+
         private void Update() {
+
+            if (!canMove)
+            {
+                return;
+            }
+
             // Handle Gravity Vertical movement
             if (characterController.isGrounded && verticalMovement < 0) {
                 verticalMovement = 0f;

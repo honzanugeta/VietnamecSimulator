@@ -23,9 +23,13 @@ namespace CodeMonkey.Toolkit.TTextPopup {
                 return null;
             }
 
-            Canvas canvas = GameObject.FindFirstObjectByType<Canvas>();
+            Canvas canvas = null;
+            GameObject canvasObj = GameObject.FindWithTag("MainCanvas");
+            if (canvasObj != null) {
+                canvas = canvasObj.GetComponent<Canvas>();
+            }
             if (canvas == null) {
-                Debug.LogError("No Canvas was found in Scene! " + nameof(TextPopupUI) + " needs a Canvas to work.");
+                Debug.LogError("Canvas s tagem 'MainCanvas' nebyl nalezen! " + nameof(TextPopupUI) + " potøebuje Canvas s tímto tagem.");
                 return null;
             }
 

@@ -1,13 +1,17 @@
 
-namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
+namespace CodeMonkey.Toolkit.ShopSimulatorDemo
+{
 
-    public enum ObjectType {
-
+    public enum ObjectType
+    {
         None,
-        Triangle,
-        Rectangle,
-        Circle,
-
+        // Real objects
+        BilyMonstrik,
+        CernyMonstrik,
+        ZelenyMonstrik,
+        uGurt,
+        Chipsy,
+        Snezenka,
     }
 
 }

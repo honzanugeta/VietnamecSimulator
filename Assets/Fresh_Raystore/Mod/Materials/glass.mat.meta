@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 978bafb761c52c8409d882f7b06d46dc
+timeCreated: 1464340896
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 267101
+  packageName: Fresh shelving
+  packageVersion: 1.0
+  assetPath: Assets/Fresh_Raystore/Mod/Materials/glass.mat
+  uploadId: 617976

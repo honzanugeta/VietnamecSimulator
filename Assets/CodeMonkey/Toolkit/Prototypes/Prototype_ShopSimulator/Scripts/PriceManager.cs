@@ -13,24 +13,30 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
         public event EventHandler OnPriceChanged;
 
 
-        private Dictionary<ObjectType, int> objectTypePriceDictionary;
+        private Dictionary<ObjectType, float> objectTypePriceDictionary;
 
 
         private void Awake() {
             Instance = this;
 
-            objectTypePriceDictionary = new Dictionary<ObjectType, int>();
+            objectTypePriceDictionary = new Dictionary<ObjectType, float>();
 
-            objectTypePriceDictionary[ObjectType.Triangle] = 199;
-            objectTypePriceDictionary[ObjectType.Rectangle] = 499;
-            objectTypePriceDictionary[ObjectType.Circle] = 999;
+            // Automatické naplnìní dictionary pro všechny ObjectType
+            foreach (var boxData in GameAssetsShopSimulator.Instance.GetAllObjectTypeBoxDatas()) {
+                objectTypePriceDictionary[boxData.objectType] = boxData.sellPrice;
+            }
         }
 
-        public int GetPrice(ObjectType objectType) {
-            return objectTypePriceDictionary[objectType];
+        public float GetPrice(ObjectType objectType) {
+            if (objectTypePriceDictionary.TryGetValue(objectType, out float price)) {
+                return price;
+            } else {
+                Debug.LogWarning($"Cena pro ObjectType '{objectType}' (key: {(int)objectType}) nebyla nalezena!");
+                return 0f; // nebo jiná defaultní hodnota
+            }
         }
 
-        public void SetPrice(ObjectType objectType, int price) {
+        public void SetPrice(ObjectType objectType, float price) {
             objectTypePriceDictionary[objectType] = price;
 
             OnPriceChanged?.Invoke(this, EventArgs.Empty);
@@ -38,5 +44,4 @@ namespace CodeMonkey.Toolkit.ShopSimulatorDemo {
 
 
     }
-
 }

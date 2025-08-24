@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9c6784651c8d1964eb6ca5f37c68d7e4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 213045
+  packageName: Low Poly Metal Rack
+  packageVersion: 1.0.1
+  assetPath: Assets/LowPolyMetalRack/Prefabs/MetalRack_Shelf_Wire.prefab
+  uploadId: 481925
